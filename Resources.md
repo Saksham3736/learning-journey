@@ -19,7 +19,8 @@ Curated collection of books, courses, documentation, articles, and GitHub reposi
 
 | Title | Platform / Instructor | Category | Priority | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| NeetCode 150 / Roadmap | NeetCode | DSA | 🔴 High | 🟡 In Progress |
+| Striver's A2Z DSA Course / Sheet | [take U forward (YouTube)](https://youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&si=gzb7iKIE9BnzKoND) | DSA | 🔴 High | 🟢 Active Primary |
+| NeetCode 150 / Roadmap | NeetCode | DSA | 🟡 Medium | 🟡 Secondary |
 | Deep Learning Specialization | Andrew Ng (Coursera) | AI / ML | 🔴 High | 🟡 In Progress |
 | Full Stack Open | University of Helsinki | Web Engineering | 🟡 Medium | ⚪ Planned |
 

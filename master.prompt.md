@@ -101,26 +101,22 @@ Everything should look professional.
 
 ---
 
-# DAILY LOGS
+# DAILY LOGS & TODAY.MD WORKFLOW
 
-Whenever I give daily updates, create a clean daily log.
+The user will write raw daily learning notes, code snippets, links, YouTube references, photos/diagrams, bugs, thoughts, and progress directly into `today.md`.
 
-Include sections such as
+Whenever asked to read the files or process updates:
+- Read `today.md` thoroughly.
+- Structure and map the content into a permanent daily log under `Daily Logs/YYYY-MM-DD.md`.
+- Intelligently route deep content to dedicated folders (`DSA/`, `System Design/`, `AI/`, `Backend/`, `Frontend/`, `DevOps/`, `Projects/`, `Notes/`, `Resources.md`).
+- Never lose any information, image references, code snippets, or video links.
+- Summarize intelligently while preserving exact technical accuracy.
 
-- Goals
-- What I Learned
-- Problems Solved
-- Bugs
-- Solutions
-- Resources
-- Project Progress
-- Key Learnings
-- Mistakes
-- Tomorrow Plan
+---
 
-Never lose any information.
+# DAILY MOTIVATION RULE
 
-Summarize intelligently.
+Whenever the user asks to **"read the files"** or process daily updates, ALWAYS begin the response with an **impactful, inspiring, and thought-provoking quote** (about engineering, perseverance, mastery, or continuous growth) to motivate and energize the user!
 
 ---
 

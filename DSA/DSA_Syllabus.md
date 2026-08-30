@@ -9,8 +9,8 @@
 | Tracker Metric | Detail | Status |
 | :--- | :--- | :--- |
 | **Learning Path Steps** | 13 Ordered Steps (Foundations $\to$ Linear $\to$ Trees $\to$ Graphs $\to$ DP $\to$ Advanced) | 🟢 Optimal Order |
-| **Core Concepts & Theory** | 90+ In-Depth Theoretical Subtopics | ⚪ 0 / 90 Mastered |
-| **Curated Must-Do Problems** | 120 Industry-Standard Interview Problems (LeetCode / Striver A2Z) | ⚪ 0 / 120 Solved |
+| **Core Concepts & Theory** | 90+ In-Depth Theoretical Subtopics | [ ] Completed |
+| **Curated Must-Do Problems** | 120 Industry-Standard Interview Problems (LeetCode / Striver A2Z) | [ ] 0 / 120 Solved |
 | **Difficulty Breakdown** | 🟢 30 Easy \| 🟡 65 Medium \| 🔴 25 Hard | ⚖️ Balanced |
 | **Offline Version** | Printable PDF Tracker ([DSA_Syllabus.pdf](file:///s:/Learning-Journey/DSA/DSA_Syllabus.pdf)) | 📄 Ready |
 
@@ -87,16 +87,16 @@ flowchart TD
 - [ ] Euclidean Algorithm for GCD & LCM, Prime Sieve of Eratosthenes ($O(N \log \log N)$).
 
 ### 📝 Progress Tracker: Math & Bit Manipulation
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Single Number** | [LeetCode #136](https://leetcode.com/problems/single-number/) | 🟢 Easy | XOR Property | ⚪ Not Started |
-| [ ] | **Number of 1 Bits** | [LeetCode #191](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Kernighan's Bit Trick | ⚪ Not Started |
-| [ ] | **Counting Bits** | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | 🟢 Easy | Bitwise DP | ⚪ Not Started |
-| [ ] | **Single Number II & III** | [LeetCode #137 / #260](https://leetcode.com/problems/single-number-iii/) | 🟡 Medium | Bitmasking & Bucket XOR | ⚪ Not Started |
-| [ ] | **Reverse Bits** | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | 🟢 Easy | Bit Shift Manipulation | ⚪ Not Started |
-| [ ] | **Bitwise AND of Numbers Range** | [LeetCode #201](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Common Binary Prefix | ⚪ Not Started |
-| [ ] | **Pow(x, n)** | [LeetCode #50](https://leetcode.com/problems/powx-n/) | 🟡 Medium | Binary Exponentiation | ⚪ Not Started |
-| [ ] | **Count Primes** | [LeetCode #204](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Sieve of Eratosthenes | ⚪ Not Started |
+| [ ] | **Single Number** | [LeetCode #136](https://leetcode.com/problems/single-number/) | 🟢 Easy | XOR Property | [ ] Completed |
+| [ ] | **Number of 1 Bits** | [LeetCode #191](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Kernighan's Bit Trick | [ ] Completed |
+| [ ] | **Counting Bits** | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | 🟢 Easy | Bitwise DP | [ ] Completed |
+| [ ] | **Single Number II & III** | [LeetCode #137 / #260](https://leetcode.com/problems/single-number-iii/) | 🟡 Medium | Bitmasking & Bucket XOR | [ ] Completed |
+| [ ] | **Reverse Bits** | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | 🟢 Easy | Bit Shift Manipulation | [ ] Completed |
+| [ ] | **Bitwise AND of Numbers Range** | [LeetCode #201](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Common Binary Prefix | [ ] Completed |
+| [ ] | **Pow(x, n)** | [LeetCode #50](https://leetcode.com/problems/powx-n/) | 🟡 Medium | Binary Exponentiation | [ ] Completed |
+| [ ] | **Count Primes** | [LeetCode #204](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Sieve of Eratosthenes | [ ] Completed |
 
 ---
 
@@ -110,17 +110,17 @@ flowchart TD
 - [ ] Decision Patterns: Include/Exclude pattern for Power Set, Placement constraint validation for Grid search.
 - [ ] Pruning state space to avoid Time Limit Exceeded (TLE).
 
-### 开启 Progress Tracker: Recursion & Backtracking
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+### 📝 Progress Tracker: Recursion & Backtracking
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Subsets I & II** | [LeetCode #78 / #90](https://leetcode.com/problems/subsets/) | 🟡 Medium | Include/Exclude & Sorting | ⚪ Not Started |
-| [ ] | **Permutations I & II** | [LeetCode #46 / #47](https://leetcode.com/problems/permutations/) | 🟡 Medium | Visited Array / Swapping | ⚪ Not Started |
-| [ ] | **Combination Sum I & II** | [LeetCode #39 / #40](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking & Pruning | ⚪ Not Started |
-| [ ] | **Letter Combinations of Phone Number** | [LeetCode #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Mapping Tree Search | ⚪ Not Started |
-| [ ] | **Word Search** | [LeetCode #79](https://leetcode.com/problems/word-search/) | 🟡 Medium | Matrix DFS Backtracking | ⚪ Not Started |
-| [ ] | **Palindrome Partitioning** | [LeetCode #131](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | String Split Backtracking | ⚪ Not Started |
-| [ ] | **N-Queens** | [LeetCode #51](https://leetcode.com/problems/n-queens/) | 🔴 Hard | Board Constraint Checking | ⚪ Not Started |
-| [ ] | **Sudoku Solver** | [LeetCode #37](https://leetcode.com/problems/sudoku-solver/) | 🔴 Hard | Grid Constraint Search | ⚪ Not Started |
+| [ ] | **Subsets I & II** | [LeetCode #78 / #90](https://leetcode.com/problems/subsets/) | 🟡 Medium | Include/Exclude & Sorting | [ ] Completed |
+| [ ] | **Permutations I & II** | [LeetCode #46 / #47](https://leetcode.com/problems/permutations/) | 🟡 Medium | Visited Array / Swapping | [ ] Completed |
+| [ ] | **Combination Sum I & II** | [LeetCode #39 / #40](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking & Pruning | [ ] Completed |
+| [ ] | **Letter Combinations of Phone Number** | [LeetCode #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Mapping Tree Search | [ ] Completed |
+| [ ] | **Word Search** | [LeetCode #79](https://leetcode.com/problems/word-search/) | 🟡 Medium | Matrix DFS Backtracking | [ ] Completed |
+| [ ] | **Palindrome Partitioning** | [LeetCode #131](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | String Split Backtracking | [ ] Completed |
+| [ ] | **N-Queens** | [LeetCode #51](https://leetcode.com/problems/n-queens/) | 🔴 Hard | Board Constraint Checking | [ ] Completed |
+| [ ] | **Sudoku Solver** | [LeetCode #37](https://leetcode.com/problems/sudoku-solver/) | 🔴 Hard | Grid Constraint Search | [ ] Completed |
 
 ---
 
@@ -137,20 +137,20 @@ flowchart TD
 - [ ] **Dutch National Flag Algorithm:** 3-way partitioning in $O(N)$ time and $O(1)$ space.
 
 ### 📝 Progress Tracker: Arrays & Strings
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Two Sum** | [LeetCode #1](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Map Complement | ⚪ Not Started |
-| [ ] | **Best Time to Buy & Sell Stock** | [LeetCode #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Minimum Tracking | ⚪ Not Started |
-| [ ] | **Maximum Subarray** | [LeetCode #53](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | Kadane's Algorithm | ⚪ Not Started |
-| [ ] | **Sort Colors** | [LeetCode #75](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | Dutch National Flag | ⚪ Not Started |
-| [ ] | **3Sum** | [LeetCode #15](https://leetcode.com/problems/3sum/) | 🟡 Medium | Sorting + Two Pointers | ⚪ Not Started |
-| [ ] | **Container With Most Water** | [LeetCode #11](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | Shrinking Two Pointers | ⚪ Not Started |
-| [ ] | **Subarray Sum Equals K** | [LeetCode #560](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | Prefix Sum + Hash Map | ⚪ Not Started |
-| [ ] | **Find All Anagrams in a String** | [LeetCode #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 🟡 Medium | Fixed Sliding Window | ⚪ Not Started |
-| [ ] | **Spiral Matrix** | [LeetCode #54](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | 2D Boundary Traversal | ⚪ Not Started |
-| [ ] | **Rotate Image (2D Matrix)** | [LeetCode #48](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Transpose + Reverse | ⚪ Not Started |
-| [ ] | **Trapping Rain Water** | [LeetCode #42](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | Two Pointers / Monotonic | ⚪ Not Started |
-| [ ] | **Minimum Window Substring** | [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/) | 🔴 Hard | Variable Sliding Window | ⚪ Not Started |
+| [ ] | **Two Sum** | [LeetCode #1](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Map Complement | [ ] Completed |
+| [ ] | **Best Time to Buy & Sell Stock** | [LeetCode #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Minimum Tracking | [ ] Completed |
+| [ ] | **Maximum Subarray** | [LeetCode #53](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | Kadane's Algorithm | [ ] Completed |
+| [ ] | **Sort Colors** | [LeetCode #75](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | Dutch National Flag | [ ] Completed |
+| [ ] | **3Sum** | [LeetCode #15](https://leetcode.com/problems/3sum/) | 🟡 Medium | Sorting + Two Pointers | [ ] Completed |
+| [ ] | **Container With Most Water** | [LeetCode #11](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | Shrinking Two Pointers | [ ] Completed |
+| [ ] | **Subarray Sum Equals K** | [LeetCode #560](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | Prefix Sum + Hash Map | [ ] Completed |
+| [ ] | **Find All Anagrams in a String** | [LeetCode #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 🟡 Medium | Fixed Sliding Window | [ ] Completed |
+| [ ] | **Spiral Matrix** | [LeetCode #54](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | 2D Boundary Traversal | [ ] Completed |
+| [ ] | **Rotate Image (2D Matrix)** | [LeetCode #48](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Transpose + Reverse | [ ] Completed |
+| [ ] | **Trapping Rain Water** | [LeetCode #42](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | Two Pointers / Monotonic | [ ] Completed |
+| [ ] | **Minimum Window Substring** | [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/) | 🔴 Hard | Variable Sliding Window | [ ] Completed |
 
 ---
 
@@ -166,18 +166,18 @@ flowchart TD
 - [ ] **Binary Search on Answer Space:** Monotonic Predicate Function $f(x) \in \{\text{True, False}\}$, shrinking search range `[low, high]`.
 
 ### 📝 Progress Tracker: Sorting & Binary Search
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Binary Search** | [LeetCode #704](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Standard Binary Search | ⚪ Not Started |
-| [ ] | **Search in Rotated Sorted Array** | [LeetCode #33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | Modified Binary Search | ⚪ Not Started |
-| [ ] | **Find First & Last Position in Array** | [LeetCode #34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | Lower & Upper Bound | ⚪ Not Started |
-| [ ] | **Kth Largest Element in an Array** | [LeetCode #215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | QuickSelect Algorithm | ⚪ Not Started |
-| [ ] | **Search a 2D Matrix I & II** | [LeetCode #74 / #240](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | Staircase Search / 2D BS | ⚪ Not Started |
-| [ ] | **Find Peak Element** | [LeetCode #162](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | Gradient Binary Search | ⚪ Not Started |
-| [ ] | **Koko Eating Bananas** | [LeetCode #875](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | BS on Answer Space | ⚪ Not Started |
-| [ ] | **Capacity To Ship Packages in D Days**| [LeetCode #1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🟡 Medium | BS on Answer Space | ⚪ Not Started |
-| [ ] | **Book Allocation / Aggressive Cows** | [Standard Pattern](https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/) | 🟡 Medium | BS on Monotonic Answer | ⚪ Not Started |
-| [ ] | **Median of Two Sorted Arrays** | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Partition Binary Search | ⚪ Not Started |
+| [ ] | **Binary Search** | [LeetCode #704](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Standard Binary Search | [ ] Completed |
+| [ ] | **Search in Rotated Sorted Array** | [LeetCode #33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | Modified Binary Search | [ ] Completed |
+| [ ] | **Find First & Last Position in Array** | [LeetCode #34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | Lower & Upper Bound | [ ] Completed |
+| [ ] | **Kth Largest Element in an Array** | [LeetCode #215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | QuickSelect Algorithm | [ ] Completed |
+| [ ] | **Search a 2D Matrix I & II** | [LeetCode #74 / #240](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | Staircase Search / 2D BS | [ ] Completed |
+| [ ] | **Find Peak Element** | [LeetCode #162](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | Gradient Binary Search | [ ] Completed |
+| [ ] | **Koko Eating Bananas** | [LeetCode #875](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | BS on Answer Space | [ ] Completed |
+| [ ] | **Capacity To Ship Packages in D Days**| [LeetCode #1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🟡 Medium | BS on Answer Space | [ ] Completed |
+| [ ] | **Book Allocation / Aggressive Cows** | [Standard Pattern](https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/) | 🟡 Medium | BS on Monotonic Answer | [ ] Completed |
+| [ ] | **Median of Two Sorted Arrays** | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Partition Binary Search | [ ] Completed |
 
 ---
 
@@ -194,18 +194,18 @@ flowchart TD
 - [ ] LRU / LFU Cache Architecture: Combining Hash Map ($O(1)$ lookups) + Doubly Linked List ($O(1)$ node repositioning).
 
 ### 📝 Progress Tracker: Linked Lists
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Reverse Linked List** | [LeetCode #206](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Iterative / Recursive | ⚪ Not Started |
-| [ ] | **Middle of the Linked List** | [LeetCode #876](https://leetcode.com/problems/middle-of-the-linked-list/) | 🟢 Easy | Fast & Slow Pointers | ⚪ Not Started |
-| [ ] | **Merge Two Sorted Lists** | [LeetCode #21](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Two Pointers Merge | ⚪ Not Started |
-| [ ] | **Linked List Cycle I & II** | [LeetCode #141 / #142](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 Medium | Floyd's Cycle Detection | ⚪ Not Started |
-| [ ] | **Remove Nth Node From End** | [LeetCode #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | Two Pointer Offset | ⚪ Not Started |
-| [ ] | **Reorder List** | [LeetCode #143](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | Middle + Reverse + Merge | ⚪ Not Started |
-| [ ] | **Add Two Numbers** | [LeetCode #2](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | Digit Addition LL | ⚪ Not Started |
-| [ ] | **Merge k Sorted Lists** | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | Min-Heap / Divide & Conquer | ⚪ Not Started |
-| [ ] | **LRU Cache** | [LeetCode #146](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | Hash Map + Doubly LL | ⚪ Not Started |
-| [ ] | **LFU Cache** | [LeetCode #460](https://leetcode.com/problems/lfu-cache/) | 🔴 Hard | Freq Map + Doubly LL | ⚪ Not Started |
+| [ ] | **Reverse Linked List** | [LeetCode #206](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Iterative / Recursive | [ ] Completed |
+| [ ] | **Middle of the Linked List** | [LeetCode #876](https://leetcode.com/problems/middle-of-the-linked-list/) | 🟢 Easy | Fast & Slow Pointers | [ ] Completed |
+| [ ] | **Merge Two Sorted Lists** | [LeetCode #21](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Two Pointers Merge | [ ] Completed |
+| [ ] | **Linked List Cycle I & II** | [LeetCode #141 / #142](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 Medium | Floyd's Cycle Detection | [ ] Completed |
+| [ ] | **Remove Nth Node From End** | [LeetCode #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | Two Pointer Offset | [ ] Completed |
+| [ ] | **Reorder List** | [LeetCode #143](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | Middle + Reverse + Merge | [ ] Completed |
+| [ ] | **Add Two Numbers** | [LeetCode #2](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | Digit Addition LL | [ ] Completed |
+| [ ] | **Merge k Sorted Lists** | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | Min-Heap / Divide & Conquer | [ ] Completed |
+| [ ] | **LRU Cache** | [LeetCode #146](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | Hash Map + Doubly LL | [ ] Completed |
+| [ ] | **LFU Cache** | [LeetCode #460](https://leetcode.com/problems/lfu-cache/) | 🔴 Hard | Freq Map + Doubly LL | [ ] Completed |
 
 ---
 
@@ -221,18 +221,18 @@ flowchart TD
 - [ ] Min Stack Architecture: $O(1)$ space math encoding (`2 * val - minVal`) vs auxiliary min stack.
 
 ### 📝 Progress Tracker: Stacks & Queues
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Valid Parentheses** | [LeetCode #20](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | Stack Matching | ⚪ Not Started |
-| [ ] | **Implement Queue using Stacks** | [LeetCode #232](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 Easy | Amortized $O(1)$ Stacks | ⚪ Not Started |
-| [ ] | **Min Stack** | [LeetCode #155](https://leetcode.com/problems/min-stack/) | 🟡 Medium | Auxiliary Stack / Math | ⚪ Not Started |
-| [ ] | **Evaluate Reverse Polish Notation**| [LeetCode #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Postfix Evaluation | ⚪ Not Started |
-| [ ] | **Daily Temperatures** | [LeetCode #739](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium | Monotonic Decreasing Stack | ⚪ Not Started |
-| [ ] | **Next Greater Element I & II** | [LeetCode #496 / #503](https://leetcode.com/problems/next-greater-element-ii/) | 🟡 Medium | Monotonic Stack / Circular | ⚪ Not Started |
-| [ ] | **Online Stock Span** | [LeetCode #901](https://leetcode.com/problems/online-stock-span/) | 🟡 Medium | Monotonic Stack | ⚪ Not Started |
-| [ ] | **Sliding Window Maximum** | [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Deque | ⚪ Not Started |
-| [ ] | **Largest Rectangle in Histogram** | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | Monotonic Stack Range | ⚪ Not Started |
-| [ ] | **Basic Calculator I & II** | [LeetCode #224 / #227](https://leetcode.com/problems/basic-calculator-ii/) | 🔴 Hard | Stack Expression Parsing | ⚪ Not Started |
+| [ ] | **Valid Parentheses** | [LeetCode #20](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | Stack Matching | [ ] Completed |
+| [ ] | **Implement Queue using Stacks** | [LeetCode #232](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 Easy | Amortized $O(1)$ Stacks | [ ] Completed |
+| [ ] | **Min Stack** | [LeetCode #155](https://leetcode.com/problems/min-stack/) | 🟡 Medium | Auxiliary Stack / Math | [ ] Completed |
+| [ ] | **Evaluate Reverse Polish Notation**| [LeetCode #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Postfix Evaluation | [ ] Completed |
+| [ ] | **Daily Temperatures** | [LeetCode #739](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium | Monotonic Decreasing Stack | [ ] Completed |
+| [ ] | **Next Greater Element I & II** | [LeetCode #496 / #503](https://leetcode.com/problems/next-greater-element-ii/) | 🟡 Medium | Monotonic Stack / Circular | [ ] Completed |
+| [ ] | **Online Stock Span** | [LeetCode #901](https://leetcode.com/problems/online-stock-span/) | 🟡 Medium | Monotonic Stack | [ ] Completed |
+| [ ] | **Sliding Window Maximum** | [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Deque | [ ] Completed |
+| [ ] | **Largest Rectangle in Histogram** | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | Monotonic Stack Range | [ ] Completed |
+| [ ] | **Basic Calculator I & II** | [LeetCode #224 / #227](https://leetcode.com/problems/basic-calculator-ii/) | 🔴 Hard | Stack Expression Parsing | [ ] Completed |
 
 ---
 
@@ -251,18 +251,18 @@ flowchart TD
 - [ ] BST Operations: Search, Insert, Delete (Leaf, 1-Child, 2-Children via Inorder Successor).
 
 ### 📝 Progress Tracker: Trees & BST
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Maximum Depth of Binary Tree** | [LeetCode #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Simple DFS / BFS | ⚪ Not Started |
-| [ ] | **Invert / Flip Binary Tree** | [LeetCode #226](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | Recursive Postorder | ⚪ Not Started |
-| [ ] | **Diameter of Binary Tree** | [LeetCode #543](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Postorder Global Max | ⚪ Not Started |
-| [ ] | **Binary Tree Level Order Traversal**| [LeetCode #102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Queue BFS Level | ⚪ Not Started |
-| [ ] | **Lowest Common Ancestor of BT** | [LeetCode #236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium | Recursive DFS LCA | ⚪ Not Started |
-| [ ] | **Validate Binary Search Tree** | [LeetCode #98](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Range Checking / Inorder | ⚪ Not Started |
-| [ ] | **Kth Smallest Element in BST** | [LeetCode #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Medium | Inorder Traversal | ⚪ Not Started |
-| [ ] | **Construct Tree from Pre & Inorder**| [LeetCode #105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Hash Map + Recursion | ⚪ Not Started |
-| [ ] | **Binary Tree Maximum Path Sum** | [LeetCode #124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | Tree Dynamic Programming | ⚪ Not Started |
-| [ ] | **Serialize & Deserialize BT** | [LeetCode #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 Hard | Preorder / Level String | ⚪ Not Started |
+| [ ] | **Maximum Depth of Binary Tree** | [LeetCode #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Simple DFS / BFS | [ ] Completed |
+| [ ] | **Invert / Flip Binary Tree** | [LeetCode #226](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | Recursive Postorder | [ ] Completed |
+| [ ] | **Diameter of Binary Tree** | [LeetCode #543](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Postorder Global Max | [ ] Completed |
+| [ ] | **Binary Tree Level Order Traversal**| [LeetCode #102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Queue BFS Level | [ ] Completed |
+| [ ] | **Lowest Common Ancestor of BT** | [LeetCode #236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium | Recursive DFS LCA | [ ] Completed |
+| [ ] | **Validate Binary Search Tree** | [LeetCode #98](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Range Checking / Inorder | [ ] Completed |
+| [ ] | **Kth Smallest Element in BST** | [LeetCode #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Medium | Inorder Traversal | [ ] Completed |
+| [ ] | **Construct Tree from Pre & Inorder**| [LeetCode #105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Hash Map + Recursion | [ ] Completed |
+| [ ] | **Binary Tree Maximum Path Sum** | [LeetCode #124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | Tree Dynamic Programming | [ ] Completed |
+| [ ] | **Serialize & Deserialize BT** | [LeetCode #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 Hard | Preorder / Level String | [ ] Completed |
 
 ---
 
@@ -278,16 +278,16 @@ flowchart TD
 - [ ] **Two-Heaps Pattern:** Min-Heap + Max-Heap combination to track dynamic median in $O(1)$ time.
 
 ### 📝 Progress Tracker: Heaps & Priority Queues
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Kth Largest Element in a Stream**| [LeetCode #703](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 Easy | Size-K Min-Heap | ⚪ Not Started |
-| [ ] | **Top K Frequent Elements** | [LeetCode #347](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium | Min-Heap / Bucket Sort | ⚪ Not Started |
-| [ ] | **K Closest Points to Origin** | [LeetCode #973](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 Medium | Max-Heap / QuickSelect | ⚪ Not Started |
-| [ ] | **Task Scheduler** | [LeetCode #621](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | Max-Heap + Idle Queue | ⚪ Not Started |
-| [ ] | **Reorganize String** | [LeetCode #767](https://leetcode.com/problems/reorganize-string/) | 🟡 Medium | Greedy Max-Heap | ⚪ Not Started |
-| [ ] | **Find Median from Data Stream** | [LeetCode #295](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 Hard | Min-Heap + Max-Heap | ⚪ Not Started |
-| [ ] | **Merge k Sorted Lists** | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | K-Way Min-Heap Merge | ⚪ Not Started |
-| [ ] | **Smallest Range Covering K Lists** | [LeetCode #632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | 🔴 Hard | Min-Heap + Sliding Window | ⚪ Not Started |
+| [ ] | **Kth Largest Element in a Stream**| [LeetCode #703](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 Easy | Size-K Min-Heap | [ ] Completed |
+| [ ] | **Top K Frequent Elements** | [LeetCode #347](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium | Min-Heap / Bucket Sort | [ ] Completed |
+| [ ] | **K Closest Points to Origin** | [LeetCode #973](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 Medium | Max-Heap / QuickSelect | [ ] Completed |
+| [ ] | **Task Scheduler** | [LeetCode #621](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | Max-Heap + Idle Queue | [ ] Completed |
+| [ ] | **Reorganize String** | [LeetCode #767](https://leetcode.com/problems/reorganize-string/) | 🟡 Medium | Greedy Max-Heap | [ ] Completed |
+| [ ] | **Find Median from Data Stream** | [LeetCode #295](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 Hard | Min-Heap + Max-Heap | [ ] Completed |
+| [ ] | **Merge k Sorted Lists** | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | K-Way Min-Heap Merge | [ ] Completed |
+| [ ] | **Smallest Range Covering K Lists** | [LeetCode #632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | 🔴 Hard | Min-Heap + Sliding Window | [ ] Completed |
 
 ---
 
@@ -309,18 +309,18 @@ flowchart TD
 - [ ] Tarjan's Algorithm for Bridges & Articulation Points (Low-link values).
 
 ### 📝 Progress Tracker: Graph Algorithms
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Number of Islands** | [LeetCode #200](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Grid BFS/DFS | ⚪ Not Started |
-| [ ] | **Clone Graph** | [LeetCode #133](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | Graph Map + BFS/DFS | ⚪ Not Started |
-| [ ] | **Course Schedule I & II** | [LeetCode #207 / #210](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Topological Sort / Kahn's | ⚪ Not Started |
-| [ ] | **Is Graph Bipartite?** | [LeetCode #785](https://leetcode.com/problems/is-graph-bipartite/) | 🟡 Medium | Graph Coloring BFS/DFS | ⚪ Not Started |
-| [ ] | **Redundant Connection** | [LeetCode #684](https://leetcode.com/problems/redundant-connection/) | 🟡 Medium | DSU Cycle Detection | ⚪ Not Started |
-| [ ] | **Word Ladder** | [LeetCode #127](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Unweighted BFS Shortest | ⚪ Not Started |
-| [ ] | **Network Delay Time** | [LeetCode #743](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Dijkstra's Algorithm | ⚪ Not Started |
-| [ ] | **Cheapest Flights Within K Stops** | [LeetCode #787](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | Bellman-Ford / Modified BS | ⚪ Not Started |
-| [ ] | **Min Cost to Connect All Points** | [LeetCode #1584](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 Medium | Kruskal's / Prim's MST | ⚪ Not Started |
-| [ ] | **Critical Connections (Bridges)** | [LeetCode #1192](https://leetcode.com/problems/critical-connections-in-a-network/) | 🔴 Hard | Tarjan's Low-Link Algorithm | ⚪ Not Started |
+| [ ] | **Number of Islands** | [LeetCode #200](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Grid BFS/DFS | [ ] Completed |
+| [ ] | **Clone Graph** | [LeetCode #133](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | Graph Map + BFS/DFS | [ ] Completed |
+| [ ] | **Course Schedule I & II** | [LeetCode #207 / #210](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Topological Sort / Kahn's | [ ] Completed |
+| [ ] | **Is Graph Bipartite?** | [LeetCode #785](https://leetcode.com/problems/is-graph-bipartite/) | 🟡 Medium | Graph Coloring BFS/DFS | [ ] Completed |
+| [ ] | **Redundant Connection** | [LeetCode #684](https://leetcode.com/problems/redundant-connection/) | 🟡 Medium | DSU Cycle Detection | [ ] Completed |
+| [ ] | **Word Ladder** | [LeetCode #127](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Unweighted BFS Shortest | [ ] Completed |
+| [ ] | **Network Delay Time** | [LeetCode #743](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Dijkstra's Algorithm | [ ] Completed |
+| [ ] | **Cheapest Flights Within K Stops** | [LeetCode #787](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | Bellman-Ford / Modified BS | [ ] Completed |
+| [ ] | **Min Cost to Connect All Points** | [LeetCode #1584](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 Medium | Kruskal's / Prim's MST | [ ] Completed |
+| [ ] | **Critical Connections (Bridges)** | [LeetCode #1192](https://leetcode.com/problems/critical-connections-in-a-network/) | 🔴 Hard | Tarjan's Low-Link Algorithm | [ ] Completed |
 
 ---
 
@@ -342,20 +342,20 @@ flowchart TD
   7. **Tree DP & Bitmask DP:** Subtree state passing & subset bitmask compression.
 
 ### 📝 Progress Tracker: Dynamic Programming
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Climbing Stairs** | [LeetCode #70](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | 1D Fibonacci DP | ⚪ Not Started |
-| [ ] | **House Robber I & II** | [LeetCode #198 / #213](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | 1D DP / Circular Array | ⚪ Not Started |
-| [ ] | **Coin Change I & II** | [LeetCode #322 / #518](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | Unbounded Knapsack DP | ⚪ Not Started |
-| [ ] | **Partition Equal Subset Sum** | [LeetCode #416](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | 0/1 Knapsack Subset DP | ⚪ Not Started |
-| [ ] | **Longest Common Subsequence** | [LeetCode #1143](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 Medium | 2D String Matching DP | ⚪ Not Started |
-| [ ] | **Edit Distance** | [LeetCode #72](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | 2D String Edit DP | ⚪ Not Started |
-| [ ] | **Longest Increasing Subsequence** | [LeetCode #300](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 Medium | LIS $O(N \log N)$ BS | ⚪ Not Started |
-| [ ] | **Word Break** | [LeetCode #139](https://leetcode.com/problems/word-break/) | 🟡 Medium | 1D String Partition DP | ⚪ Not Started |
-| [ ] | **Unique Paths I & II** | [LeetCode #62 / #63](https://leetcode.com/problems/unique-paths-ii/) | 🟡 Medium | 2D Grid Traversal DP | ⚪ Not Started |
-| [ ] | **Maximum Product Subarray** | [LeetCode #152](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | 1D Min/Max Tracking DP | ⚪ Not Started |
-| [ ] | **Palindrome Partitioning II** | [LeetCode #132](https://leetcode.com/problems/palindrome-partitioning-ii/) | 🔴 Hard | Min-Cut String DP | ⚪ Not Started |
-| [ ] | **Burst Balloons** | [LeetCode #312](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Interval / MCM DP | ⚪ Not Started |
+| [ ] | **Climbing Stairs** | [LeetCode #70](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | 1D Fibonacci DP | [ ] Completed |
+| [ ] | **House Robber I & II** | [LeetCode #198 / #213](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | 1D DP / Circular Array | [ ] Completed |
+| [ ] | **Coin Change I & II** | [LeetCode #322 / #518](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | Unbounded Knapsack DP | [ ] Completed |
+| [ ] | **Partition Equal Subset Sum** | [LeetCode #416](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | 0/1 Knapsack Subset DP | [ ] Completed |
+| [ ] | **Longest Common Subsequence** | [LeetCode #1143](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 Medium | 2D String Matching DP | [ ] Completed |
+| [ ] | **Edit Distance** | [LeetCode #72](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | 2D String Edit DP | [ ] Completed |
+| [ ] | **Longest Increasing Subsequence** | [LeetCode #300](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 Medium | LIS $O(N \log N)$ BS | [ ] Completed |
+| [ ] | **Word Break** | [LeetCode #139](https://leetcode.com/problems/word-break/) | 🟡 Medium | 1D String Partition DP | [ ] Completed |
+| [ ] | **Unique Paths I & II** | [LeetCode #62 / #63](https://leetcode.com/problems/unique-paths-ii/) | 🟡 Medium | 2D Grid Traversal DP | [ ] Completed |
+| [ ] | **Maximum Product Subarray** | [LeetCode #152](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | 1D Min/Max Tracking DP | [ ] Completed |
+| [ ] | **Palindrome Partitioning II** | [LeetCode #132](https://leetcode.com/problems/palindrome-partitioning-ii/) | 🔴 Hard | Min-Cut String DP | [ ] Completed |
+| [ ] | **Burst Balloons** | [LeetCode #312](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Interval / MCM DP | [ ] Completed |
 
 ---
 
@@ -370,14 +370,14 @@ flowchart TD
 - [ ] **KMP (Knuth-Morris-Pratt) Algorithm:** Pattern matching in $O(N + M)$ time using Longest Prefix Suffix (LPS) array.
 
 ### 📝 Progress Tracker: Advanced Structures & Strings
-| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status / Completed |
 | :---: | :--- | :--- | :---: | :--- | :---: |
-| [ ] | **Implement Trie (Prefix Tree)** | [LeetCode #208](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Trie Node Design | ⚪ Not Started |
-| [ ] | **Design Add & Search Words** | [LeetCode #211](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | Trie + Backtracking | ⚪ Not Started |
-| [ ] | **Maximum XOR of Two Numbers** | [LeetCode #421](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bitwise Trie | ⚪ Not Started |
-| [ ] | **Range Sum Query - Mutable** | [LeetCode #307](https://leetcode.com/problems/range-sum-query-mutable/) | 🟡 Medium | Segment Tree / BIT | ⚪ Not Started |
-| [ ] | **Index of First Occurrence (KMP)** | [LeetCode #28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟡 Medium | KMP LPS Array | ⚪ Not Started |
-| [ ] | **Shortest Palindrome** | [LeetCode #214](https://leetcode.com/problems/shortest-palindrome/) | 🔴 Hard | KMP LPS Pattern Matching | ⚪ Not Started |
+| [ ] | **Implement Trie (Prefix Tree)** | [LeetCode #208](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Trie Node Design | [ ] Completed |
+| [ ] | **Design Add & Search Words** | [LeetCode #211](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | Trie + Backtracking | [ ] Completed |
+| [ ] | **Maximum XOR of Two Numbers** | [LeetCode #421](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bitwise Trie | [ ] Completed |
+| [ ] | **Range Sum Query - Mutable** | [LeetCode #307](https://leetcode.com/problems/range-sum-query-mutable/) | 🟡 Medium | Segment Tree / BIT | [ ] Completed |
+| [ ] | **Index of First Occurrence (KMP)** | [LeetCode #28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟡 Medium | KMP LPS Array | [ ] Completed |
+| [ ] | **Shortest Palindrome** | [LeetCode #214](https://leetcode.com/problems/shortest-palindrome/) | 🔴 Hard | KMP LPS Pattern Matching | [ ] Completed |
 
 ---
 

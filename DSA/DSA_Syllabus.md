@@ -1,436 +1,393 @@
-# 🎛️ Master C++ & DSA Learning Dashboard
+# 🏆 World's Best C++ & DSA Master Progress Sheet
 
-> **A Production-Grade Roadmap & Interactive Milestone Tracker from Language Fundamentals to Advanced Algorithmic Mastery**
+> **The Ultimate Pedagogical Roadmap: Formatted as a Full-Featured Progress & Revision Tracking Sheet**
 
 ---
 
-## 📊 Dashboard Overview & Metrics
+## 📊 Master Progress Summary & Metrics
 
-| Metric | Target / Detail | Status |
+| Tracker Metric | Detail | Status |
 | :--- | :--- | :--- |
-| **Total Modules** | 12 Core Modules (1 C++ Revision + 11 DSA Domains) | 🟢 Active |
-| **Theoretical Subtopics** | 85+ Concepts (Memory, Complexity, Patterns, Algorithms) | ⚪ Planned |
-| **Must-Do Famous Problems** | 105 Curated Interview Problems (LeetCode / Striver A2Z) | ⚪ 0 / 105 Completed |
-| **Estimated Duration** | 16 Weeks (Dedicated Systematic Study) | ⏱️ In Progress |
-| **Offline Version** | PDF Copy Available ([DSA_Syllabus.pdf](file:///s:/Learning-Journey/DSA/DSA_Syllabus.pdf)) | 📄 Compiled |
+| **Learning Path Steps** | 13 Ordered Steps (Foundations $\to$ Linear $\to$ Trees $\to$ Graphs $\to$ DP $\to$ Advanced) | 🟢 Optimal Order |
+| **Core Concepts & Theory** | 90+ In-Depth Theoretical Subtopics | ⚪ 0 / 90 Mastered |
+| **Curated Must-Do Problems** | 120 Industry-Standard Interview Problems (LeetCode / Striver A2Z) | ⚪ 0 / 120 Solved |
+| **Difficulty Breakdown** | 🟢 30 Easy \| 🟡 65 Medium \| 🔴 25 Hard | ⚖️ Balanced |
+| **Offline Version** | Printable PDF Tracker ([DSA_Syllabus.pdf](file:///s:/Learning-Journey/DSA/DSA_Syllabus.pdf)) | 📄 Ready |
 
 ---
 
-## 🚩 Milestone & Checkpoint Tracker
+## 🗺️ Optimal Pedagogical Learning Order
 
-Use this checklist as your high-level progress dashboard. Check off each milestone as you master the underlying theory and solve the associated must-do problems.
-
-### 🟢 Phase 1: C++ Language & Memory Mastery (Weeks 1–2)
-- [ ] **CP-01:** Basic C++ syntax, fast I/O (`cin.tie`), primitive data types, & range overflow limits.
-- [ ] **CP-02:** Pass-by-value vs pass-by-reference (`&`), pointer arithmetic, & memory addresses (`*`, `&`).
-- [ ] **CP-03:** Sequence STL containers (`vector`, `deque`, `list`) & capacity management (`reserve`).
-- [ ] **CP-04:** Associative STL containers (`set`, `map`, `unordered_set`, `unordered_map`) & hash tables.
-- [ ] **CP-05:** Container adaptors (`stack`, `queue`, `priority_queue` Min/Max heaps) & essential STL algorithms.
-- [ ] **CP-06:** Advanced C++: Smart pointers (`unique_ptr`, `shared_ptr`), move semantics (`&&`), & lambda comparators.
-
-### 🟡 Phase 2: Core Linear Data Structures & Search Space (Weeks 3–6)
-- [ ] **CP-07:** Array pattern mastery: Two Pointers, Sliding Window (Fixed & Variable), Prefix Sum, & Kadane's algorithm.
-- [ ] **CP-08:** Linked List pointer manipulation: In-place reversal, fast & slow pointers, dummy nodes, & LRU cache.
-- [ ] **CP-09:** Monotonic Stack & Queue patterns (Next Greater Element, Sliding Window Maximum, Largest Histogram).
-- [ ] **CP-10:** Binary Search fundamentals: Lower/Upper bounds, Rotated Array search, & Binary Search on Answer Space.
-
-### 🟠 Phase 3: Non-Linear Structures, Recursion & Trees (Weeks 7–10)
-- [ ] **CP-11:** Recursive state-space tree search, inclusion/exclusion pattern, & backtracking with pruning.
-- [ ] **CP-12:** Binary Tree traversals (DFS Pre/In/Post, BFS Level Order) & Lowest Common Ancestor (LCA).
-- [ ] **CP-13:** Binary Search Tree invariants, BST operations (Insert, Search, Delete), & Inorder traversal property.
-- [ ] **CP-14:** Binary Heaps ($O(N)$ Build-Heap), Top-K elements pattern, K-Way Merging, & Two-Heaps Median tracking.
-
-### 🔴 Phase 4: Graphs, Dynamic Programming & Advanced DSA (Weeks 11–16)
-- [ ] **CP-15:** Bit manipulation formulas (XOR tricks, `x & (x-1)`, power of 2) & Bitmasking state compression.
-- [ ] **CP-16:** Graph traversals (BFS/DFS), Topological Sort (Kahn's algorithm), & Disjoint Set Union (DSU).
-- [ ] **CP-17:** Graph shortest paths (Dijkstra, Bellman-Ford, Floyd-Warshall) & Minimum Spanning Trees (Kruskal/Prim).
-- [ ] **CP-18:** Dynamic Programming foundations: 1D DP, Grid DP, 0/1 & Unbounded Knapsack patterns.
-- [ ] **CP-19:** Advanced DP: Longest Common Subsequence (LCS), LIS ($O(N \log N)$ BS optimization), & Matrix Chain DP.
-- [ ] **CP-20:** Advanced structures: Trie (Prefix Tree), Segment Tree range queries, Fenwick Tree (BIT), & KMP string match.
+```mermaid
+flowchart TD
+    Step0[Step 0: C++ Fundamentals & Memory] --> Step1[Step 1: Time & Space Complexity]
+    Step1 --> Step2[Step 2: Math & Bit Manipulation]
+    Step2 --> Step3[Step 3: Recursion & Backtracking]
+    Step3 --> Step4[Step 4: Arrays & Strings]
+    Step4 --> Step5[Step 5: Sorting & Binary Search]
+    Step5 --> Step6[Step 6: Linked Lists]
+    Step6 --> Step7[Step 7: Stacks & Queues]
+    Step7 --> Step8[Step 8: Binary Trees & BST]
+    Step8 --> Step9[Step 9: Heaps & Priority Queues]
+    Step9 --> Step10[Step 10: Graph Algorithms]
+    Step10 --> Step11[Step 11: Dynamic Programming]
+    Step11 --> Step12[Step 12: Advanced Structures & Strings]
+```
 
 ---
 
-## 📌 Module Navigation Index
+## ⚡ Step 0: C++ Language Fundamentals & Memory Layout
 
-1. ⚡ [Module 0: C++ Quick Revision & Mastery](#-module-0-c-quick-revision--mastery)
-2. 🧮 [Module 1: Arrays & Strings](#-module-1-arrays--strings)
-3. 🔗 [Module 2: Linked Lists](#-module-2-linked-lists)
-4. 🧱 [Module 3: Stacks & Queues](#-module-3-stacks--queues)
-5. 🔄 [Module 4: Recursion & Backtracking](#-module-4-recursion--backtracking)
-6. 🎯 [Module 5: Sorting & Binary Search](#-module-5-sorting--binary-search)
-7. 🌲 [Module 6: Trees & Binary Search Trees (BST)](#-module-6-trees--binary-search-trees-bst)
-8. ⛰️ [Module 7: Heaps & Priority Queues](#-module-7-heaps--priority-queues)
-9. 🔑 [Module 8: Hashing & Bit Manipulation](#-module-8-hashing--bit-manipulation)
-10. 🌐 [Module 9: Graphs](#-module-9-graphs)
-11. 💎 [Module 10: Dynamic Programming (DP)](#-module-10-dynamic-programming-dp)
-12. ⚡ [Module 11: Advanced Data Structures & String Algorithms](#-module-11-advanced-data-structures--string-algorithms)
+> **Pedagogical Rationale:** Before analyzing algorithms, you must master variable scopes, pointers, reference semantics, dynamic memory allocation, and the Standard Template Library (STL) to write efficient, low-overhead code.
 
----
-
-## ⚡ Module 0: C++ Quick Revision & Mastery
-
-### 0.1 Basic C++
-* **Syntax & I/O:**
-  * Structure of a C++ program (`#include <iostream>`, `main()`).
-  * Fast I/O trick for competitive programming/DSA:
-    ```cpp
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    ```
-* **Data Types, Ranges & Precision:** Primitive types (`int`, `long long`, `float`, `double`, `char`, `bool`), overflow/underflow boundaries ($2^{31}-1$ vs $2^{63}-1$).
-* **Control Flow:** Conditionals (`if`, `else if`, `switch`), Loops (`for`, `while`, `do-while`, range-based `for`).
-* **Arrays & Strings:** Fixed arrays vs `std::string` manipulation (`length()`, `substr()`, `find()`, `append()`).
-* **Functions & Parameter Passing:** Pass-by-Value vs Pass-by-Reference (`&`), Pass-by-Const-Reference (`const std::string& str`).
-* **Pointers & Memory Addresses:** Address-of (`&`), Dereference (`*`), Pointer arithmetic, Null pointers (`nullptr`).
-
-### 0.2 Intermediate C++ & Standard Template Library (STL)
-* **Sequence Containers:**
-  * `std::vector`: Dynamic array, amortized $O(1)$ push_back, capacity vs size, `reserve()`, `emplace_back()`.
-  * `std::deque`: Double-ended queue, $O(1)$ push/pop at both ends.
-  * `std::list`: Doubly linked list, $O(1)$ insertions/deletions anywhere given an iterator.
-* **Associative Containers:**
-  * `std::set` / `std::map`: Self-balancing Red-Black Tree, sorted keys, $O(\log N)$ operations.
-  * `std::unordered_set` / `std::unordered_map`: Hash table, average $O(1)$ operations, worst-case $O(N)$.
-  * `std::pair` & `std::tuple`: Multi-value binding.
-* **Container Adaptors:**
-  * `std::stack`: LIFO operations (`push`, `pop`, `top`).
-  * `std::queue`: FIFO operations (`push`, `pop`, `front`).
-  * `std::priority_queue`: Max-heap by default (`top`, `push`, `pop`), Min-heap via `greater<int>`.
-* **Essential STL Algorithms:** `std::sort`, `std::binary_search`, `std::lower_bound`, `std::upper_bound`, `std::next_permutation`, `std::accumulate`.
-* **Dynamic Memory & OOP:** Dynamic allocation (`new`/`delete`), Classes vs Structs, Constructors, Destructors, Polymorphism.
-
-### 0.3 Advanced C++
-* **Smart Pointers (RAII):** `std::unique_ptr` (exclusive ownership), `std::shared_ptr` (reference-counted), `std::weak_ptr` (cyclic protection).
-* **Move Semantics & Rvalue References:** Rvalue reference (`T&&`), `std::move`, move constructors, avoiding deep copies.
-* **Templates & Generic Programming:** Function templates, Class templates, Template specialization.
-* **Lambda Expressions & Custom Comparators:**
-  * Sorting comparators: `sort(vec.begin(), vec.end(), [](const Point& a, const Point& b) { return a.x < b.x; });`
-  * Custom priority queue comparators.
-* **Custom Hash Functions:** Custom hashes for `std::unordered_map<pair<int,int>, int>` using XOR / `boost::hash_combine`.
-* **Memory Alignment & Cache Locality:** Spatial & Temporal locality in array traversals vs node-based data structures.
+### 📖 Theory & Language Mechanics
+- [ ] Syntax, primitive data types, range overflow boundaries ($2^{31}-1$ vs $2^{63}-1$).
+- [ ] Fast I/O mechanics (`ios_base::sync_with_stdio(false); cin.tie(NULL);`).
+- [ ] Pass-by-Value vs Pass-by-Reference (`&`) vs Pass-by-Const-Reference (`const string&`).
+- [ ] Pointers, dereferencing (`*`), address-of (`&`), pointer arithmetic, and null pointers (`nullptr`).
+- [ ] STL Sequence Containers: `std::vector` (dynamic array, capacity vs size, `reserve()`), `std::deque`, `std::list`.
+- [ ] STL Associative Containers: `std::set`, `std::map` (Red-Black Trees, $O(\log N)$) vs `std::unordered_set`, `std::unordered_map` (Hash tables, average $O(1)$).
+- [ ] STL Adaptors & Algorithms: `std::stack`, `std::queue`, `std::priority_queue`, `std::sort`, `std::lower_bound`, `std::upper_bound`.
+- [ ] Advanced C++: Smart pointers (`unique_ptr`, `shared_ptr`), move semantics (`&&`), templates, and custom lambda comparators.
 
 ---
 
-## 🧮 Module 1: Arrays & Strings
+## ⏳ Step 1: Time & Space Complexity Analysis
 
-### 1.1 Core Concepts & Theory
-* Memory layout of 1D and 2D arrays (Row-Major vs Column-Major ordering).
-* Time and Space complexity of Array operations (Access $O(1)$, Search $O(N)$, Insertion/Deletion $O(N)$).
-* String immutability vs mutability concepts, ASCII & UTF-8 character encodings.
+> **Pedagogical Rationale:** Enables you to rigorously evaluate algorithm efficiency, prevent Time Limit Exceeded (TLE) errors, and choose optimal data structures.
 
-### 1.2 Theoretical Subtopics & Algorithmic Patterns
-* **Two Pointers Technique:** Opposite direction (palindrome check, 2-sum) and Same direction (fast/slow, duplicate removal).
-* **Sliding Window:** Fixed-size window (max sum of subarray K) and Variable-size window (longest substring with K distinct chars).
-* **Prefix Sum & Difference Array:** $O(1)$ range sum queries, $O(1)$ range updates using difference array.
-* **Kadane's Algorithm:** Maximum subarray sum intuition, local vs global optimal state transition.
-* **Dutch National Flag Algorithm:** 3-way partitioning algorithm ($O(N)$ time, $O(1)$ space).
-* **2D Matrix Manipulation:** In-place matrix rotation, spiral traversal, matrix multiplication.
-
-### 1.3 Must-Do Famous Problems
-1. **Two Sum** *(Array, Hash Table)* — LeetCode #1
-2. **Best Time to Buy and Sell Stock** *(Array, Dynamic Programming)* — LeetCode #121
-3. **Maximum Subarray (Kadane's Algorithm)** *(Array, DP)* — LeetCode #53
-4. **3Sum** *(Two Pointers, Array, Sorting)* — LeetCode #15
-5. **Container With Most Water** *(Two Pointers, Greedy)* — LeetCode #11
-6. **Trapping Rain Water** *(Two Pointers, Stack, Array)* — LeetCode #42
-7. **Find All Anagrams in a String** *(Sliding Window, Hash Table)* — LeetCode #438
-8. **Subarray Sum Equals K** *(Prefix Sum, Hash Table)* — LeetCode #560
-9. **Spiral Matrix** *(2D Array, Simulation)* — LeetCode #54
-10. **Minimum Window Substring** *(Sliding Window, Hash Table)* — LeetCode #76
+### 📖 Theory & Complexity Rules
+- [ ] Asymptotic Notations: Big-O ($O$), Big-Omega ($\Omega$), Big-Theta ($\Theta$).
+- [ ] Time Complexity derivation for single loops, nested loops, logarithmic loops ($O(\log N)$), and exponential recursion ($O(2^N)$, $O(N!)$).
+- [ ] Space Complexity: Auxiliary memory vs Total memory, Call Stack Depth in recursion.
+- [ ] Input Size Constraint Analysis (Mapping $N$ to required algorithm complexity):
+  * $N \le 10 \implies O(N!)$ or $O(2^N)$ (Backtracking / Bitmask)
+  * $N \le 10^2 \implies O(N^3)$ (Floyd-Warshall / Matrix DP)
+  * $N \le 10^3 \implies O(N^2)$ (2D DP / Nested Loops)
+  * $N \le 10^5 \implies O(N \log N)$ (Sorting / Binary Search / Segment Tree)
+  * $N \le 10^8 \implies O(N)$ or $O(\log N)$ (Linear Scan / Binary Search)
 
 ---
 
-## 🔗 Module 2: Linked Lists
+## 🔑 Step 2: Essential Math & Bit Manipulation
 
-### 2.1 Core Concepts & Theory
-* Linked List Node structure (Data field, Next/Prev pointer fields).
-* Memory allocation (Non-contiguous node distribution vs Array contiguous memory).
-* Variations: Singly Linked List, Doubly Linked List, Circular Linked List.
+> **Pedagogical Rationale:** Bitwise operations operate directly at the hardware register level, providing $O(1)$ time state tracking and efficient mathematical problem-solving.
 
-### 2.2 Theoretical Subtopics & Algorithmic Patterns
-* **Pointer Manipulation:** In-place node insertion, deletion, and pointer updating without loss of references.
-* **Fast & Slow Pointers (Floyd's Cycle Detection):** Mathematical proof of cycle detection ($2k - k = n \cdot C$), finding cycle entry node.
-* **Linked List Reversal:** Iterative 3-pointer method (`prev`, `curr`, `next`) and Recursive reversal.
-* **Dummy Node Pattern:** Eliminating edge cases for head updates.
-* **Merge Sort on Linked Lists:** Finding middle using slow/fast pointers, dividing list, merging sorted lists ($O(N \log N)$ time, $O(1)$ space).
-* **Cache Eviction Architectures:** Combined Hash Map + Doubly Linked List for LRU Cache ($O(1)$ get and put).
-
-### 2.3 Must-Do Famous Problems
-1. **Reverse Linked List** *(Iterative & Recursive)* — LeetCode #206
-2. **Middle of the Linked List** *(Fast & Slow Pointers)* — LeetCode #876
-3. **Linked List Cycle I & II** *(Floyd's Cycle Detection)* — LeetCode #141 / #142
-4. **Merge Two Sorted Lists** *(Two Pointers, Recursion)* — LeetCode #21
-5. **Remove Nth Node From End of List** *(Two Pointers)* — LeetCode #19
-6. **Reorder List** *(Middle split + Reverse + Merge)* — LeetCode #143
-7. **Add Two Numbers** *(Math, Linked List)* — LeetCode #2
-8. **Merge k Sorted Lists** *(Heap / Divide & Conquer)* — LeetCode #23
-9. **LRU Cache** *(Hash Table, Doubly Linked List)* — LeetCode #146
-10. **LFU Cache** *(Hash Table, Doubly Linked List, Frequency Map)* — LeetCode #460
-
----
-
-## 🧱 Module 3: Stacks & Queues
-
-### 3.1 Core Concepts & Theory
-* **Stack:** LIFO (Last In First Out) paradigm, Function Call Stack execution model.
-* **Queue:** FIFO (First In First Out) paradigm, Task scheduling queues.
-* Array-based vs Linked List-based implementations, Array overflow/underflow handling.
-
-### 3.2 Theoretical Subtopics & Algorithmic Patterns
-* **Monotonic Stack:** Next Greater Element (NGE), Next Smaller Element (NSE), Previous Greater/Smaller Element.
-* **Monotonic Queue:** Sliding Window Maximum tracking using Deque ($O(N)$ amortized time).
-* **Expression Evaluation & Parsing:** Infix to Postfix (Shunting-yard Algorithm), Postfix Evaluation using Stack.
-* **Min Stack / Max Stack:** Auxiliary stack technique vs $O(1)$ space math encoding (`2 * val - minVal`).
-
-### 3.3 Must-Do Famous Problems
-1. **Valid Parentheses** *(Stack)* — LeetCode #20
-2. **Min Stack** *(Design, Stack)* — LeetCode #155
-3. **Evaluate Reverse Polish Notation** *(Stack, Math)* — LeetCode #150
-4. **Daily Temperatures** *(Monotonic Stack)* — LeetCode #739
-5. **Next Greater Element I & II** *(Monotonic Stack)* — LeetCode #496 / #503
-6. **Largest Rectangle in Histogram** *(Monotonic Stack)* — LeetCode #84
-7. **Sliding Window Maximum** *(Monotonic Queue, Deque)* — LeetCode #239
-8. **Online Stock Span** *(Monotonic Stack)* — LeetCode #901
-9. **Implement Queue using Stacks** *(Design, Stack)* — LeetCode #232
-10. **Basic Calculator I & II** *(Stack, Math, String Parsing)* — LeetCode #224 / #227
-
----
-
-## 🔄 Module 4: Recursion & Backtracking
-
-### 4.1 Core Concepts & Theory
-* Recursion tree visualization, Base Case, Recursive State Transition, Call Stack Depth & Stack Overflow.
-* Backtracking paradigm: Explore, Choose, Un-choose (State Reset).
-
-### 4.2 Theoretical Subtopics & Algorithmic Patterns
-* **State Space Tree Search:** Systematic exploration of search space.
-* **Subsets / Power Set (Include/Exclude Pattern):** Decision tree branches for each element.
-* **Combinations & Permutations:** Handling duplicate elements via sorting and frequency maps / boolean visited arrays.
-* **Pruning:** Early termination of invalid recursive paths to avoid TLE.
-* **Constraint Satisfaction Problems:** Grid backtracking, N-Queens placement validation, Sudoku cell constraints.
-
-### 4.3 Must-Do Famous Problems
-1. **Subsets I & II** *(Backtracking, Bit Manipulation)* — LeetCode #78 / #90
-2. **Permutations I & II** *(Backtracking)* — LeetCode #46 / #47
-3. **Combination Sum I & II** *(Backtracking)* — LeetCode #39 / #40
-4. **Letter Combinations of a Phone Number** *(Backtracking, String)* — LeetCode #17
-5. **Word Search** *(Matrix Backtracking, DFS)* — LeetCode #79
-6. **Palindrome Partitioning** *(Backtracking, DP)* — LeetCode #131
-7. **N-Queens** *(Backtracking, Constraint Satisfaction)* — LeetCode #51
-8. **Sudoku Solver** *(Backtracking, Constraint Satisfaction)* — LeetCode #37
-
----
-
-## 🎯 Module 5: Sorting & Binary Search
-
-### 5.1 Core Concepts & Theory
-* **Sorting Categories:** Comparison-based vs Non-comparison-based, In-place vs Out-of-place, Stable vs Unstable sorts.
-* **Binary Search Paradigm:** Reducing search space by half at each step ($O(\log N)$ time), Condition for Monotonicity.
-
-### 5.2 Theoretical Subtopics & Algorithmic Patterns
-* **Sorting Algorithms Breakdown:**
-  * Insertion Sort, Selection Sort, Bubble Sort ($O(N^2)$).
-  * Merge Sort ($O(N \log N)$ Stable), Quick Sort ($O(N \log N)$ Average, Pivot Selection strategies).
-  * QuickSelect Algorithm ($O(N)$ average time for Kth element).
-  * Counting Sort, Radix Sort ($O(N + K)$ non-comparison).
-* **Binary Search Variants:**
-  * Standard BS, Order-Agnostic BS.
-  * Lower Bound (`first element >= target`), Upper Bound (`first element > target`).
-  * Binary search on rotated sorted arrays (identifying sorted half).
-* **Binary Search on Answer Space:** Monotonic predicate functions $f(x) \to \{\text{True, False}\}$, defining search range `[low, high]`.
-
-### 5.3 Must-Do Famous Problems
-1. **Binary Search** *(Search, Array)* — LeetCode #704
-2. **Search in Rotated Sorted Array I & II** *(Binary Search)* — LeetCode #33 / #81
-3. **Find First and Last Position of Element in Sorted Array** *(Lower/Upper Bound)* — LeetCode #34
-4. **Kth Largest Element in an Array** *(QuickSelect / Heap)* — LeetCode #215
-5. **Search a 2D Matrix I & II** *(Binary Search)* — LeetCode #74 / #240
-6. **Find Minimum in Rotated Sorted Array** *(Binary Search)* — LeetCode #154
-7. **Koko Eating Bananas** *(Binary Search on Answer)* — LeetCode #875
-8. **Capacity To Ship Packages Within D Days** *(Binary Search on Answer)* — LeetCode #1011
-9. **Aggressive Cows / Book Allocation Problem** *(Binary Search on Answer)* — Standard Pattern
-10. **Median of Two Sorted Arrays** *(Advanced Binary Search)* — LeetCode #4
-
----
-
-## 🌲 Module 6: Trees & Binary Search Trees (BST)
-
-### 6.1 Core Concepts & Theory
-* Tree Definitions: Root, Child, Parent, Leaf, Depth, Height, Ancestor, Subtree.
-* Binary Tree Types: Full, Complete, Perfect, Balanced, Degenerate.
-* Binary Search Tree Invariant: $\text{Left Subtree} < \text{Node} < \text{Right Subtree}$.
-
-### 6.2 Theoretical Subtopics & Algorithmic Patterns
-* **Tree Traversals:**
-  * Depth-First: Inorder (Left-Node-Right), Preorder (Node-Left-Right), Postorder (Left-Right-Node) via Recursion & Iterative Stacks.
-  * Breadth-First: Level-Order Traversal using Queue.
-* **Lowest Common Ancestor (LCA):** Top-down vs Bottom-up search logic for BT and BST.
-* **Tree Construction:** Reconstructing tree from (Preorder + Inorder) or (Postorder + Inorder).
-* **Diameter & Path Sums:** Global maximum update during postorder traversal.
-* **BST Operations:** Search, Insert, Delete node (3 cases: Leaf, 1 Child, 2 Children via Inorder Successor/Predecessor).
-* **Self-Balancing Concepts:** AVL Rotations (LL, RR, LR, RL), Red-Black tree properties (conceptual).
-
-### 6.3 Must-Do Famous Problems
-1. **Maximum Depth of Binary Tree** *(DFS/BFS)* — LeetCode #104
-2. **Invert / Flip Binary Tree** *(Recursion)* — LeetCode #226
-3. **Diameter of Binary Tree** *(DFS, Global Max)* — LeetCode #543
-4. **Binary Tree Level Order Traversal** *(BFS, Queue)* — LeetCode #102
-5. **Lowest Common Ancestor of a Binary Tree** *(Recursion)* — LeetCode #236
-6. **Validate Binary Search Tree** *(BST Invariant, Range Check)* — LeetCode #98
-7. **Kth Smallest Element in a BST** *(Inorder Traversal)* — LeetCode #230
-8. **Construct Binary Tree from Preorder and Inorder Traversal** *(Recursion, Hash Table)* — LeetCode #105
-9. **Binary Tree Maximum Path Sum** *(Postorder DFS, Dynamic Programming)* — LeetCode #124
-10. **Serialize and Deserialize Binary Tree** *(Design, BFS/DFS)* — LeetCode #297
-
----
-
-## ⛰️ Module 7: Heaps & Priority Queues
-
-### 7.1 Core Concepts & Theory
-* Complete Binary Tree representation in Array (Parent at `i/2`, Left Child at `2i`, Right Child at `2i+1`).
-* Max-Heap vs Min-Heap properties.
-* Building Heap (`Heapify`): $O(N)$ time complexity proof vs $O(N \log N)$ successive insertion.
-
-### 7.2 Theoretical Subtopics & Algorithmic Patterns
-* **Heap Operations:** `push` ($O(\log N)$), `pop` ($O(\log N)$), `top` ($O(1)$).
-* **Top-K Elements Pattern:** Maintaining a Min-Heap of size K for K largest elements.
-* **K-Way Merge Pattern:** Merging K sorted streams using Priority Queue.
-* **Two-Heaps Pattern:** Min-Heap + Max-Heap combination to track dynamic median in $O(1)$ time.
-
-### 7.3 Must-Do Famous Problems
-1. **Kth Largest Element in a Stream** *(Min-Heap)* — LeetCode #703
-2. **Top K Frequent Elements** *(Min-Heap / Bucket Sort)* — LeetCode #347
-3. **K Closest Points to Origin** *(Max-Heap / QuickSelect)* — LeetCode #973
-4. **Task Scheduler** *(Max-Heap, Greedy, Queue)* — LeetCode #621
-5. **Reorganize String** *(Max-Heap, Greedy)* — LeetCode #767
-6. **Find Median from Data Stream** *(Two Heaps: Min & Max)* — LeetCode #295
-7. **Merge k Sorted Lists** *(Priority Queue / Divide & Conquer)* — LeetCode #23
-8. **Smallest Range Covering Elements from K Lists** *(Min-Heap, Sliding Window)* — LeetCode #632
-
----
-
-## 🔑 Module 8: Hashing & Bit Manipulation
-
-### 8.1 Core Concepts & Theory
-* **Hashing:** Hash Functions, Load Factor ($\alpha = N/M$), Collision Resolution (Separate Chaining vs Open Addressing: Linear/Quadratic Probing, Double Hashing).
-* **Bit Manipulation:** Binary representations, Two's Complement, Bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`).
-
-### 8.2 Theoretical Subtopics & Algorithmic Patterns
-* **Bit Manipulation Core Formulas:**
+### 📖 Theory & Bit Formulas
+- [ ] Binary numbers, Two's Complement representation, signed vs unsigned integer overflow.
+- [ ] Bitwise operators: `&` (AND), `|` (OR), `^` (XOR), `~` (NOT), `<<` (Left Shift), `>>` (Right Shift).
+- [ ] Core Bit Tricks:
   * Check $i$-th bit set: `(n & (1 << i)) != 0`
   * Set $i$-th bit: `n | (1 << i)`
   * Clear $i$-th bit: `n & ~(1 << i)`
   * Toggle $i$-th bit: `n ^ (1 << i)`
-  * Unset lowest set bit: `n & (n - 1)` (Kernighan's Algorithm)
+  * Unset lowest set bit: `n & (n - 1)` (Brian Kernighan's Algorithm)
   * Isolate lowest set bit: `n & (-n)`
-  * Check Power of 2: `(n > 0) && ((n & (n - 1)) == 0)`
-* **Bitmasking:** Representing sets as integers for state compression ($2^N$ states).
+  * Check power of 2: `(n > 0) && ((n & (n - 1)) == 0)`
+- [ ] Euclidean Algorithm for GCD & LCM, Prime Sieve of Eratosthenes ($O(N \log \log N)$).
 
-### 8.3 Must-Do Famous Problems
-1. **Single Number I, II, & III** *(XOR Bitwise Logic)* — LeetCode #136 / #137 / #260
-2. **Number of 1 Bits (Hamming Weight)** *(Bit Operations)* — LeetCode #191
-3. **Counting Bits** *(Bitwise DP)* — LeetCode #338
-4. **Reverse Bits** *(Bit Manipulation)* — LeetCode #190
-5. **Group Anagrams** *(Hash Map, Categorization)* — LeetCode #49
-6. **Longest Consecutive Sequence** *(Unordered Set, $O(N)$ Search)* — LeetCode #128
-7. **Subarray Sum Equals K** *(Prefix Sum + Hash Map)* — LeetCode #560
-8. **Bitwise AND of Numbers Range** *(Bit Shift Logic)* — LeetCode #201
-9. **Subsets using Bitmasking** *(Combinatorics, Bitmask)* — LeetCode #78
-
----
-
-## 🌐 Module 9: Graphs
-
-### 9.1 Core Concepts & Theory
-* Graph Representations: Adjacency Matrix ($O(V^2)$ space) vs Adjacency List ($O(V + E)$ space).
-* Terminology: Directed, Undirected, Weighted, Unweighted, Cyclic, Acyclic (DAG), Connected Components, Bipartite.
-
-### 9.2 Theoretical Subtopics & Algorithmic Patterns
-* **Graph Traversals:**
-  * **BFS:** Shortest path in unweighted graphs using Queue ($O(V + E)$).
-  * **DFS:** Recursive exploration using Call Stack ($O(V + E)$).
-* **Cycle Detection:**
-  * Undirected Graph: BFS/DFS (visited parent check) or DSU.
-  * Directed Graph: DFS (In-degree / Recursion Stack tracking) or Kahn's Algorithm.
-* **Topological Sort (DAG):**
-  * Kahn's Algorithm (BFS with In-degree array).
-  * DFS with Stack.
-* **Disjoint Set Union (DSU / Union-Find):** Path Compression & Union by Rank/Size ($O(\alpha(N))$ amortized time per operation).
-* **Shortest Path Algorithms:**
-  * **Dijkstra's Algorithm:** Non-negative weights using Priority Queue ($O((V + E) \log V)$).
-  * **Bellman-Ford Algorithm:** Single-source shortest paths with negative weights & negative cycle detection ($O(V \cdot E)$).
-  * **Floyd-Warshall Algorithm:** All-pairs shortest paths using 3D/2D DP ($O(V^3)$).
-* **Minimum Spanning Tree (MST):**
-  * **Kruskal's Algorithm:** Greedy Edge sorting + DSU ($O(E \log E)$).
-  * **Prim's Algorithm:** Greedy Vertex expansion + Priority Queue ($O(E \log V)$).
-* **Advanced Graph Theory:** Tarjan's Algorithm for Bridges & Articulation Points (Low-link values).
-
-### 9.3 Must-Do Famous Problems
-1. **Number of Islands** *(Grid BFS/DFS, Connected Components)* — LeetCode #200
-2. **Clone Graph** *(Graph Hash Map, BFS/DFS)* — LeetCode #133
-3. **Course Schedule I & II** *(Topological Sort, Cycle Detection)* — LeetCode #207 / #210
-4. **Is Graph Bipartite?** *(Coloring BFS/DFS)* — LeetCode #785
-5. **Word Ladder** *(Shortest Path BFS)* — LeetCode #127
-6. **Network Delay Time** *(Dijkstra's Algorithm)* — LeetCode #743
-7. **Cheapest Flights Within K Stops** *(Bellman-Ford / Modified Dijkstra)* — LeetCode #787
-8. **Redundant Connection** *(DSU / Cycle Detection)* — LeetCode #684
-9. **Min Cost to Connect All Points** *(Kruskal's / Prim's MST)* — LeetCode #1584
-10. **Critical Connections in a Network (Bridges)** *(Tarjan's Algorithm)* — LeetCode #1192
+### 📝 Progress Tracker: Math & Bit Manipulation
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Single Number** | [LeetCode #136](https://leetcode.com/problems/single-number/) | 🟢 Easy | XOR Property | ⚪ Not Started |
+| [ ] | **Number of 1 Bits** | [LeetCode #191](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Kernighan's Bit Trick | ⚪ Not Started |
+| [ ] | **Counting Bits** | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | 🟢 Easy | Bitwise DP | ⚪ Not Started |
+| [ ] | **Single Number II & III** | [LeetCode #137 / #260](https://leetcode.com/problems/single-number-iii/) | 🟡 Medium | Bitmasking & Bucket XOR | ⚪ Not Started |
+| [ ] | **Reverse Bits** | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | 🟢 Easy | Bit Shift Manipulation | ⚪ Not Started |
+| [ ] | **Bitwise AND of Numbers Range** | [LeetCode #201](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Common Binary Prefix | ⚪ Not Started |
+| [ ] | **Pow(x, n)** | [LeetCode #50](https://leetcode.com/problems/powx-n/) | 🟡 Medium | Binary Exponentiation | ⚪ Not Started |
+| [ ] | **Count Primes** | [LeetCode #204](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Sieve of Eratosthenes | ⚪ Not Started |
 
 ---
 
-## 💎 Module 10: Dynamic Programming (DP)
+## 🔄 Step 3: Recursion & Backtracking Fundamentals
 
-### 10.1 Core Concepts & Theory
-* Core Requirements: **Overlapping Subproblems** & **Optimal Substructure**.
-* Approaches:
-  * **Top-Down (Memoization):** Recursive exploration + Cache lookup.
-  * **Bottom-Up (Tabulation):** Iterative DP table population.
-  * **Space Optimization:** Reducing state tables from $O(N^2) \to O(N)$ or $O(N) \to O(1)$ by identifying necessary prior states.
+> **Pedagogical Rationale:** Recursion builds the foundational mindset for state-space tree search, which is mandatory before mastering Tree traversals, Graph DFS, and Dynamic Programming.
 
-### 10.2 Theoretical Subtopics & Categories
-* **1D DP:** Fibonacci sequence pattern, House Robber, Climbing Stairs.
-* **2D / Grid DP:** Unique Paths, Minimum Path Sum, Matrix traversals.
-* **Knapsack Patterns:**
-  * **0/1 Knapsack:** Item inclusion/exclusion once (Subset Sum, Equal Partition).
-  * **Unbounded Knapsack:** Infinite supply of items (Coin Change, Rod Cutting).
-* **Longest Common Subsequence (LCS):** String matching DP transitions, Edit Distance, Shortest Common Supersequence.
-* **Longest Increasing Subsequence (LIS):** $O(N^2)$ DP formulation vs $O(N \log N)$ Binary Search patience sorting formulation.
-* **Interval DP / Matrix Chain Multiplication (MCM):** Subsegment split optimizations.
-* **Tree DP:** State transitions across subtrees (Diameter, Max Path Sum).
-* **Bitmask DP:** State compression over set elements.
+### 📖 Theory & State Space Exploration
+- [ ] Recursion tree visualization, Base Case definition, Recursive Relation, Call Stack mechanics.
+- [ ] Backtracking Framework: **Choose $\to$ Explore $\to$ Un-choose (State Reset)**.
+- [ ] Decision Patterns: Include/Exclude pattern for Power Set, Placement constraint validation for Grid search.
+- [ ] Pruning state space to avoid Time Limit Exceeded (TLE).
 
-### 10.3 Must-Do Famous Problems
-1. **Climbing Stairs** *(1D DP)* — LeetCode #70
-2. **House Robber I & II** *(1D DP, Circular)* — LeetCode #198 / #213
-3. **Coin Change I & II** *(Unbounded Knapsack)* — LeetCode #322 / #518
-4. **Partition Equal Subset Sum** *(0/1 Knapsack)* — LeetCode #416
-5. **Longest Common Subsequence** *(2D String DP)* — LeetCode #1143
-6. **Edit Distance** *(2D String DP)* — LeetCode #72
-7. **Longest Increasing Subsequence** *(LIS, $O(N \log N)$ Binary Search)* — LeetCode #300
-8. **Word Break** *(DP / Trie)* — LeetCode #139
-9. **Unique Paths I & II** *(Grid DP)* — LeetCode #62 / #63
-10. **Maximum Product Subarray** *(1D DP, Min/Max Tracking)* — LeetCode #152
-11. **Palindrome Partitioning II** *(String DP, Min Cut)* — LeetCode #132
-12. **Burst Balloons** *(Interval DP / MCM)* — LeetCode #312
+### 开启 Progress Tracker: Recursion & Backtracking
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Subsets I & II** | [LeetCode #78 / #90](https://leetcode.com/problems/subsets/) | 🟡 Medium | Include/Exclude & Sorting | ⚪ Not Started |
+| [ ] | **Permutations I & II** | [LeetCode #46 / #47](https://leetcode.com/problems/permutations/) | 🟡 Medium | Visited Array / Swapping | ⚪ Not Started |
+| [ ] | **Combination Sum I & II** | [LeetCode #39 / #40](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking & Pruning | ⚪ Not Started |
+| [ ] | **Letter Combinations of Phone Number** | [LeetCode #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Mapping Tree Search | ⚪ Not Started |
+| [ ] | **Word Search** | [LeetCode #79](https://leetcode.com/problems/word-search/) | 🟡 Medium | Matrix DFS Backtracking | ⚪ Not Started |
+| [ ] | **Palindrome Partitioning** | [LeetCode #131](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | String Split Backtracking | ⚪ Not Started |
+| [ ] | **N-Queens** | [LeetCode #51](https://leetcode.com/problems/n-queens/) | 🔴 Hard | Board Constraint Checking | ⚪ Not Started |
+| [ ] | **Sudoku Solver** | [LeetCode #37](https://leetcode.com/problems/sudoku-solver/) | 🔴 Hard | Grid Constraint Search | ⚪ Not Started |
 
 ---
 
-## ⚡ Module 11: Advanced Data Structures & String Algorithms
+## 🧮 Step 4: Arrays & Strings (Pointers & Windowing)
 
-### 11.1 Core Concepts & Theory
-* Advanced String Searching and Range Query Structures designed for scalable query optimization.
+> **Pedagogical Rationale:** Arrays are contiguous memory structures. Mastering Two Pointers, Sliding Window, and Prefix Sum techniques reduces brute-force $O(N^2)$ array problems to optimal $O(N)$ linear time.
 
-### 11.2 Theoretical Subtopics & Patterns
-* **Trie (Prefix Tree):** Node structure with child pointers array `children[26]` and `isEndOfWord` flag. $O(L)$ insertion/search where $L$ is word length.
-* **Segment Tree:** Complete binary tree for range queries (Range Sum, Range Min/Max) and point updates in $O(\log N)$ time. Build tree in $O(N)$.
-* **Binary Indexed Tree (Fenwick Tree / BIT):** Prefix sum range queries and point updates using bitwise low-bit manipulation (`idx & (-idx)`) with $O(N)$ space and $O(\log N)$ query time.
-* **KMP (Knuth-Morris-Pratt) Algorithm:** String pattern searching in $O(N + M)$ time using Longest Prefix Suffix (LPS) array.
+### 📖 Theory & Algorithmic Patterns
+- [ ] 1D & 2D Array memory mapping (Row-Major vs Column-Major).
+- [ ] **Two Pointers:** Opposite direction (2-Sum, Palindromes) vs Same direction (Fast/Slow pointers, In-place removal).
+- [ ] **Sliding Window:** Fixed Window size $K$ vs Dynamic Variable Window (expanding `right`, contracting `left`).
+- [ ] **Prefix Sum & Difference Array:** $O(1)$ Range Sum Querying & Range Updating.
+- [ ] **Kadane's Algorithm:** Local optimal sum vs Global optimal sum state transition.
+- [ ] **Dutch National Flag Algorithm:** 3-way partitioning in $O(N)$ time and $O(1)$ space.
 
-### 11.3 Must-Do Famous Problems
-1. **Implement Trie (Prefix Tree)** *(Trie Design)* — LeetCode #208
-2. **Design Add and Search Words Data Structure** *(Trie, Backtracking)* — LeetCode #211
-3. **Maximum XOR of Two Numbers in an Array** *(Bitwise Trie)* — LeetCode #421
-4. **Range Sum Query - Mutable** *(Segment Tree / Fenwick Tree)* — LeetCode #307
-5. **Find the Index of the First Occurrence in a String (KMP)** *(KMP Algorithm / LPS)* — LeetCode #28
-6. **Shortest Palindrome** *(KMP Algorithm / String)* — LeetCode #214
+### 📝 Progress Tracker: Arrays & Strings
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Two Sum** | [LeetCode #1](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Map Complement | ⚪ Not Started |
+| [ ] | **Best Time to Buy & Sell Stock** | [LeetCode #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Minimum Tracking | ⚪ Not Started |
+| [ ] | **Maximum Subarray** | [LeetCode #53](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | Kadane's Algorithm | ⚪ Not Started |
+| [ ] | **Sort Colors** | [LeetCode #75](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | Dutch National Flag | ⚪ Not Started |
+| [ ] | **3Sum** | [LeetCode #15](https://leetcode.com/problems/3sum/) | 🟡 Medium | Sorting + Two Pointers | ⚪ Not Started |
+| [ ] | **Container With Most Water** | [LeetCode #11](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | Shrinking Two Pointers | ⚪ Not Started |
+| [ ] | **Subarray Sum Equals K** | [LeetCode #560](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | Prefix Sum + Hash Map | ⚪ Not Started |
+| [ ] | **Find All Anagrams in a String** | [LeetCode #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 🟡 Medium | Fixed Sliding Window | ⚪ Not Started |
+| [ ] | **Spiral Matrix** | [LeetCode #54](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | 2D Boundary Traversal | ⚪ Not Started |
+| [ ] | **Rotate Image (2D Matrix)** | [LeetCode #48](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Transpose + Reverse | ⚪ Not Started |
+| [ ] | **Trapping Rain Water** | [LeetCode #42](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | Two Pointers / Monotonic | ⚪ Not Started |
+| [ ] | **Minimum Window Substring** | [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/) | 🔴 Hard | Variable Sliding Window | ⚪ Not Started |
+
+---
+
+## 🎯 Step 5: Sorting Algorithms & Binary Search
+
+> **Pedagogical Rationale:** Searching on sorted data or monotonic answer spaces reduces search time from linear $O(N)$ to logarithmic $O(\log N)$, forming a core pillar of optimization.
+
+### 📖 Theory & Monotonic Predicates
+- [ ] Comparison vs Non-Comparison Sorts (Merge Sort $O(N \log N)$ Stable, Quick Sort $O(N \log N)$ Average, QuickSelect $O(N)$ Kth element).
+- [ ] Binary Search Fundamentals: `low`, `high`, `mid = low + (high - low)/2` to avoid integer overflow.
+- [ ] **Lower Bound** (`first idx >= target`) and **Upper Bound** (`first idx > target`).
+- [ ] Rotated Sorted Array Searching (identifying the sorted half at every step).
+- [ ] **Binary Search on Answer Space:** Monotonic Predicate Function $f(x) \in \{\text{True, False}\}$, shrinking search range `[low, high]`.
+
+### 📝 Progress Tracker: Sorting & Binary Search
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Binary Search** | [LeetCode #704](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Standard Binary Search | ⚪ Not Started |
+| [ ] | **Search in Rotated Sorted Array** | [LeetCode #33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | Modified Binary Search | ⚪ Not Started |
+| [ ] | **Find First & Last Position in Array** | [LeetCode #34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | Lower & Upper Bound | ⚪ Not Started |
+| [ ] | **Kth Largest Element in an Array** | [LeetCode #215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | QuickSelect Algorithm | ⚪ Not Started |
+| [ ] | **Search a 2D Matrix I & II** | [LeetCode #74 / #240](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | Staircase Search / 2D BS | ⚪ Not Started |
+| [ ] | **Find Peak Element** | [LeetCode #162](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | Gradient Binary Search | ⚪ Not Started |
+| [ ] | **Koko Eating Bananas** | [LeetCode #875](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | BS on Answer Space | ⚪ Not Started |
+| [ ] | **Capacity To Ship Packages in D Days**| [LeetCode #1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🟡 Medium | BS on Answer Space | ⚪ Not Started |
+| [ ] | **Book Allocation / Aggressive Cows** | [Standard Pattern](https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/) | 🟡 Medium | BS on Monotonic Answer | ⚪ Not Started |
+| [ ] | **Median of Two Sorted Arrays** | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Partition Binary Search | ⚪ Not Started |
+
+---
+
+## 🔗 Step 6: Linked Lists (Pointers & Cache Layouts)
+
+> **Pedagogical Rationale:** Linked Lists teach precise node pointer manipulation without contiguous array layout. Mastering Floyd's Cycle Detection and LRU cache lays the groundwork for graph node structures.
+
+### 📖 Theory & Pointer Mechanics
+- [ ] Memory Allocation: Non-contiguous heap nodes vs contiguous array memory layout.
+- [ ] Variations: Singly, Doubly, Circular Linked Lists.
+- [ ] **Floyd's Cycle Detection (Fast & Slow Pointers):** Proof of meeting point $2k - k = n \cdot C$ and entry node location.
+- [ ] In-place Linked List Reversal (Iterative 3-Pointer vs Recursive).
+- [ ] **Dummy Node Pattern:** Eliminating boundary null-pointer checks during head insertions/deletions.
+- [ ] LRU / LFU Cache Architecture: Combining Hash Map ($O(1)$ lookups) + Doubly Linked List ($O(1)$ node repositioning).
+
+### 📝 Progress Tracker: Linked Lists
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Reverse Linked List** | [LeetCode #206](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Iterative / Recursive | ⚪ Not Started |
+| [ ] | **Middle of the Linked List** | [LeetCode #876](https://leetcode.com/problems/middle-of-the-linked-list/) | 🟢 Easy | Fast & Slow Pointers | ⚪ Not Started |
+| [ ] | **Merge Two Sorted Lists** | [LeetCode #21](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Two Pointers Merge | ⚪ Not Started |
+| [ ] | **Linked List Cycle I & II** | [LeetCode #141 / #142](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 Medium | Floyd's Cycle Detection | ⚪ Not Started |
+| [ ] | **Remove Nth Node From End** | [LeetCode #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | Two Pointer Offset | ⚪ Not Started |
+| [ ] | **Reorder List** | [LeetCode #143](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | Middle + Reverse + Merge | ⚪ Not Started |
+| [ ] | **Add Two Numbers** | [LeetCode #2](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | Digit Addition LL | ⚪ Not Started |
+| [ ] | **Merge k Sorted Lists** | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | Min-Heap / Divide & Conquer | ⚪ Not Started |
+| [ ] | **LRU Cache** | [LeetCode #146](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | Hash Map + Doubly LL | ⚪ Not Started |
+| [ ] | **LFU Cache** | [LeetCode #460](https://leetcode.com/problems/lfu-cache/) | 🔴 Hard | Freq Map + Doubly LL | ⚪ Not Started |
+
+---
+
+## 🧱 Step 7: Stacks & Queues (Monotonic Data Structures)
+
+> **Pedagogical Rationale:** LIFO (Stack) and FIFO (Queue) control execution flows. Monotonic Stacks solve range-query problems (e.g. Next Greater Element) in amortized linear $O(N)$ time.
+
+### 📖 Theory & Monotonic Invariants
+- [ ] Stack LIFO mechanics (Function Call Stack) vs Queue FIFO mechanics (Task queues).
+- [ ] **Monotonic Stack Pattern:** Maintaining increasing/decreasing stack elements to find Next Greater Element (NGE) or Next Smaller Element (NSE).
+- [ ] **Monotonic Queue Pattern:** Sliding Window Maximum tracking using Deque ($O(N)$ time).
+- [ ] Expression Parsing: Infix to Postfix conversion (Shunting-yard Algorithm) and Postfix Evaluation.
+- [ ] Min Stack Architecture: $O(1)$ space math encoding (`2 * val - minVal`) vs auxiliary min stack.
+
+### 📝 Progress Tracker: Stacks & Queues
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Valid Parentheses** | [LeetCode #20](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | Stack Matching | ⚪ Not Started |
+| [ ] | **Implement Queue using Stacks** | [LeetCode #232](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 Easy | Amortized $O(1)$ Stacks | ⚪ Not Started |
+| [ ] | **Min Stack** | [LeetCode #155](https://leetcode.com/problems/min-stack/) | 🟡 Medium | Auxiliary Stack / Math | ⚪ Not Started |
+| [ ] | **Evaluate Reverse Polish Notation**| [LeetCode #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Postfix Evaluation | ⚪ Not Started |
+| [ ] | **Daily Temperatures** | [LeetCode #739](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium | Monotonic Decreasing Stack | ⚪ Not Started |
+| [ ] | **Next Greater Element I & II** | [LeetCode #496 / #503](https://leetcode.com/problems/next-greater-element-ii/) | 🟡 Medium | Monotonic Stack / Circular | ⚪ Not Started |
+| [ ] | **Online Stock Span** | [LeetCode #901](https://leetcode.com/problems/online-stock-span/) | 🟡 Medium | Monotonic Stack | ⚪ Not Started |
+| [ ] | **Sliding Window Maximum** | [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Deque | ⚪ Not Started |
+| [ ] | **Largest Rectangle in Histogram** | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | Monotonic Stack Range | ⚪ Not Started |
+| [ ] | **Basic Calculator I & II** | [LeetCode #224 / #227](https://leetcode.com/problems/basic-calculator-ii/) | 🔴 Hard | Stack Expression Parsing | ⚪ Not Started |
+
+---
+
+## 🌲 Step 8: Trees & Binary Search Trees (Hierarchical Structures)
+
+> **Pedagogical Rationale:** Trees introduce non-linear hierarchical branching. Mastering Tree DFS/BFS algorithms is essential before tackling complex Graph traversals and Tree Dynamic Programming.
+
+### 📖 Theory & Traversals
+- [ ] Tree Terminology: Root, Parent, Child, Leaf, Depth, Height, Ancestor, Subtree.
+- [ ] Binary Tree Variants: Full, Complete, Perfect, Balanced, Degenerate.
+- [ ] **Tree Traversals:**
+  * Depth-First Search (DFS): Inorder (L-Node-R), Preorder (Node-L-R), Postorder (L-R-Node) via Recursion & Iterative Stacks.
+  * Breadth-First Search (BFS): Level Order Traversal via Queue.
+- [ ] **Lowest Common Ancestor (LCA):** Top-down split vs Bottom-up search logic.
+- [ ] Binary Search Tree Invariant: $\text{Left Subtree} < \text{Node} < \text{Right Subtree}$. Inorder traversal of BST produces sorted order.
+- [ ] BST Operations: Search, Insert, Delete (Leaf, 1-Child, 2-Children via Inorder Successor).
+
+### 📝 Progress Tracker: Trees & BST
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Maximum Depth of Binary Tree** | [LeetCode #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Simple DFS / BFS | ⚪ Not Started |
+| [ ] | **Invert / Flip Binary Tree** | [LeetCode #226](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | Recursive Postorder | ⚪ Not Started |
+| [ ] | **Diameter of Binary Tree** | [LeetCode #543](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Postorder Global Max | ⚪ Not Started |
+| [ ] | **Binary Tree Level Order Traversal**| [LeetCode #102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Queue BFS Level | ⚪ Not Started |
+| [ ] | **Lowest Common Ancestor of BT** | [LeetCode #236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium | Recursive DFS LCA | ⚪ Not Started |
+| [ ] | **Validate Binary Search Tree** | [LeetCode #98](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Range Checking / Inorder | ⚪ Not Started |
+| [ ] | **Kth Smallest Element in BST** | [LeetCode #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Medium | Inorder Traversal | ⚪ Not Started |
+| [ ] | **Construct Tree from Pre & Inorder**| [LeetCode #105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Hash Map + Recursion | ⚪ Not Started |
+| [ ] | **Binary Tree Maximum Path Sum** | [LeetCode #124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | Tree Dynamic Programming | ⚪ Not Started |
+| [ ] | **Serialize & Deserialize BT** | [LeetCode #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 Hard | Preorder / Level String | ⚪ Not Started |
+
+---
+
+## ⛰️ Step 9: Priority Queues & Heaps (Order Statistics)
+
+> **Pedagogical Rationale:** Binary Heaps maintain dynamic partial order in $O(\log N)$ insertion/deletion and $O(1)$ top retrieval, providing optimal solutions for Top-K and stream processing problems.
+
+### 📖 Theory & Heapification
+- [ ] Complete Binary Tree array representation (Parent `i/2`, Left `2i`, Right `2i+1`).
+- [ ] Max-Heap vs Min-Heap properties.
+- [ ] Building Heap (`Heapify`): $O(N)$ time complexity mathematical proof vs $O(N \log N)$ successive insertion.
+- [ ] **Top-K Elements Pattern:** Maintaining Min-Heap of size $K$ for $K$ largest elements ($O(N \log K)$).
+- [ ] **Two-Heaps Pattern:** Min-Heap + Max-Heap combination to track dynamic median in $O(1)$ time.
+
+### 📝 Progress Tracker: Heaps & Priority Queues
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Kth Largest Element in a Stream**| [LeetCode #703](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 Easy | Size-K Min-Heap | ⚪ Not Started |
+| [ ] | **Top K Frequent Elements** | [LeetCode #347](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium | Min-Heap / Bucket Sort | ⚪ Not Started |
+| [ ] | **K Closest Points to Origin** | [LeetCode #973](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 Medium | Max-Heap / QuickSelect | ⚪ Not Started |
+| [ ] | **Task Scheduler** | [LeetCode #621](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | Max-Heap + Idle Queue | ⚪ Not Started |
+| [ ] | **Reorganize String** | [LeetCode #767](https://leetcode.com/problems/reorganize-string/) | 🟡 Medium | Greedy Max-Heap | ⚪ Not Started |
+| [ ] | **Find Median from Data Stream** | [LeetCode #295](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 Hard | Min-Heap + Max-Heap | ⚪ Not Started |
+| [ ] | **Merge k Sorted Lists** | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | K-Way Min-Heap Merge | ⚪ Not Started |
+| [ ] | **Smallest Range Covering K Lists** | [LeetCode #632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | 🔴 Hard | Min-Heap + Sliding Window | ⚪ Not Started |
+
+---
+
+## 🌐 Step 10: Graph Algorithms (Networks & Shortest Paths)
+
+> **Pedagogical Rationale:** Graphs represent complex relationships (networks, routing, dependencies). Mastery of BFS, DFS, DSU, Dijkstra, and Topological Sort is mandatory for advanced systems engineering.
+
+### 📖 Theory & Graph Algorithms
+- [ ] Graph Representations: Adjacency Matrix ($O(V^2)$ space) vs Adjacency List ($O(V + E)$ space).
+- [ ] Graph Traversals: BFS (Queue, shortest path in unweighted graphs) and DFS (Call stack, component discovery).
+- [ ] Cycle Detection: Undirected (BFS/DFS parent check or DSU) vs Directed (DFS recursion stack or Kahn's in-degree check).
+- [ ] **Topological Sort (DAG):** Kahn's Algorithm (BFS with In-degree array) and DFS Stack method.
+- [ ] **Disjoint Set Union (DSU):** Path Compression & Union by Rank/Size ($O(\alpha(N))$ amortized per operation).
+- [ ] **Shortest Path Algorithms:**
+  * Dijkstra's Algorithm (Non-negative weights via Min-Heap, $O((V+E)\log V)$).
+  * Bellman-Ford Algorithm (Negative weights & Negative Cycle detection, $O(V \cdot E)$).
+  * Floyd-Warshall Algorithm (All-pairs shortest paths 2D DP, $O(V^3)$).
+- [ ] **Minimum Spanning Trees (MST):** Kruskal's Algorithm (Greedy edges + DSU) & Prim's Algorithm (Greedy vertices + Min-Heap).
+- [ ] Tarjan's Algorithm for Bridges & Articulation Points (Low-link values).
+
+### 📝 Progress Tracker: Graph Algorithms
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Number of Islands** | [LeetCode #200](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Grid BFS/DFS | ⚪ Not Started |
+| [ ] | **Clone Graph** | [LeetCode #133](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | Graph Map + BFS/DFS | ⚪ Not Started |
+| [ ] | **Course Schedule I & II** | [LeetCode #207 / #210](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Topological Sort / Kahn's | ⚪ Not Started |
+| [ ] | **Is Graph Bipartite?** | [LeetCode #785](https://leetcode.com/problems/is-graph-bipartite/) | 🟡 Medium | Graph Coloring BFS/DFS | ⚪ Not Started |
+| [ ] | **Redundant Connection** | [LeetCode #684](https://leetcode.com/problems/redundant-connection/) | 🟡 Medium | DSU Cycle Detection | ⚪ Not Started |
+| [ ] | **Word Ladder** | [LeetCode #127](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Unweighted BFS Shortest | ⚪ Not Started |
+| [ ] | **Network Delay Time** | [LeetCode #743](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Dijkstra's Algorithm | ⚪ Not Started |
+| [ ] | **Cheapest Flights Within K Stops** | [LeetCode #787](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | Bellman-Ford / Modified BS | ⚪ Not Started |
+| [ ] | **Min Cost to Connect All Points** | [LeetCode #1584](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 Medium | Kruskal's / Prim's MST | ⚪ Not Started |
+| [ ] | **Critical Connections (Bridges)** | [LeetCode #1192](https://leetcode.com/problems/critical-connections-in-a-network/) | 🔴 Hard | Tarjan's Low-Link Algorithm | ⚪ Not Started |
+
+---
+
+## 💎 Step 11: Dynamic Programming (Optimal Substructure & Memoization)
+
+> **Pedagogical Rationale:** DP optimizes exponential brute-force recursive calls ($O(2^N)$) into polynomial time ($O(N)$ or $O(N^2)$) by caching overlapping subproblem answers.
+
+### 📖 Theory & DP Paradigms
+- [ ] Core Invariants: **Overlapping Subproblems** & **Optimal Substructure**.
+- [ ] Approaches: Top-Down (Memoization with recursion + hash/array cache) vs Bottom-Up (Tabulation with iterative table).
+- [ ] **Space Optimization:** Reducing state space from $O(N^2) \to O(N)$ or $O(N) \to O(1)$ by identifying minimum prior state dependencies.
+- [ ] Major DP Frameworks:
+  1. **1D DP:** Linear state transitions (Fibonacci, Staircase, House Robber).
+  2. **Grid DP:** 2D cell paths (Unique Paths, Min Path Sum).
+  3. **Knapsack DP:** 0/1 Knapsack (Single use) vs Unbounded Knapsack (Infinite copy).
+  4. **String DP:** Longest Common Subsequence (LCS), Edit Distance.
+  5. **LIS Pattern:** Longest Increasing Subsequence ($O(N^2)$ DP vs $O(N \log N)$ Binary Search Patience Sorting).
+  6. **Interval DP / MCM:** Subsegment split optimization (Matrix Chain Multiplication, Burst Balloons).
+  7. **Tree DP & Bitmask DP:** Subtree state passing & subset bitmask compression.
+
+### 📝 Progress Tracker: Dynamic Programming
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Climbing Stairs** | [LeetCode #70](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | 1D Fibonacci DP | ⚪ Not Started |
+| [ ] | **House Robber I & II** | [LeetCode #198 / #213](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | 1D DP / Circular Array | ⚪ Not Started |
+| [ ] | **Coin Change I & II** | [LeetCode #322 / #518](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | Unbounded Knapsack DP | ⚪ Not Started |
+| [ ] | **Partition Equal Subset Sum** | [LeetCode #416](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | 0/1 Knapsack Subset DP | ⚪ Not Started |
+| [ ] | **Longest Common Subsequence** | [LeetCode #1143](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 Medium | 2D String Matching DP | ⚪ Not Started |
+| [ ] | **Edit Distance** | [LeetCode #72](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | 2D String Edit DP | ⚪ Not Started |
+| [ ] | **Longest Increasing Subsequence** | [LeetCode #300](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 Medium | LIS $O(N \log N)$ BS | ⚪ Not Started |
+| [ ] | **Word Break** | [LeetCode #139](https://leetcode.com/problems/word-break/) | 🟡 Medium | 1D String Partition DP | ⚪ Not Started |
+| [ ] | **Unique Paths I & II** | [LeetCode #62 / #63](https://leetcode.com/problems/unique-paths-ii/) | 🟡 Medium | 2D Grid Traversal DP | ⚪ Not Started |
+| [ ] | **Maximum Product Subarray** | [LeetCode #152](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | 1D Min/Max Tracking DP | ⚪ Not Started |
+| [ ] | **Palindrome Partitioning II** | [LeetCode #132](https://leetcode.com/problems/palindrome-partitioning-ii/) | 🔴 Hard | Min-Cut String DP | ⚪ Not Started |
+| [ ] | **Burst Balloons** | [LeetCode #312](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Interval / MCM DP | ⚪ Not Started |
+
+---
+
+## ⚡ Step 12: Advanced Data Structures & String Search
+
+> **Pedagogical Rationale:** Advanced structures handle large-scale range queries, dynamic updates, and prefix matching in sub-linear time, required for high-frequency systems and competitive coding.
+
+### 📖 Theory & Advanced Structures
+- [ ] **Trie (Prefix Tree):** Multi-way tree structure for $O(L)$ word insertion, search, and prefix matching.
+- [ ] **Segment Tree:** Complete binary tree for $O(\log N)$ range queries (Sum, Min, Max) and point/range updates.
+- [ ] **Fenwick Tree (Binary Indexed Tree / BIT):** Prefix sum range queries and point updates in $O(\log N)$ time using bitwise low-bit manipulation (`idx & (-idx)`).
+- [ ] **KMP (Knuth-Morris-Pratt) Algorithm:** Pattern matching in $O(N + M)$ time using Longest Prefix Suffix (LPS) array.
+
+### 📝 Progress Tracker: Advanced Structures & Strings
+| Done | Problem Title | Platform Link | Difficulty | Key Pattern | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| [ ] | **Implement Trie (Prefix Tree)** | [LeetCode #208](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Trie Node Design | ⚪ Not Started |
+| [ ] | **Design Add & Search Words** | [LeetCode #211](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | Trie + Backtracking | ⚪ Not Started |
+| [ ] | **Maximum XOR of Two Numbers** | [LeetCode #421](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bitwise Trie | ⚪ Not Started |
+| [ ] | **Range Sum Query - Mutable** | [LeetCode #307](https://leetcode.com/problems/range-sum-query-mutable/) | 🟡 Medium | Segment Tree / BIT | ⚪ Not Started |
+| [ ] | **Index of First Occurrence (KMP)** | [LeetCode #28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟡 Medium | KMP LPS Array | ⚪ Not Started |
+| [ ] | **Shortest Palindrome** | [LeetCode #214](https://leetcode.com/problems/shortest-palindrome/) | 🔴 Hard | KMP LPS Pattern Matching | ⚪ Not Started |
+
+---
+
+## 📅 Recommended 16-Week Progress Schedule
+
+- [ ] **Weeks 1–2:** Step 0 (C++ Fundamentals & STL) & Step 1 (Complexity Analysis)
+- [ ] **Weeks 3–4:** Step 2 (Math & Bit Operations) & Step 3 (Recursion & Backtracking)
+- [ ] **Weeks 5–6:** Step 4 (Arrays, Two Pointers & Sliding Window)
+- [ ] **Weeks 7–8:** Step 5 (Sorting & Binary Search) & Step 6 (Linked Lists)
+- [ ] **Weeks 9–10:** Step 7 (Stacks & Queues) & Step 8 (Trees & Binary Search Trees)
+- [ ] **Weeks 11–12:** Step 9 (Heaps & Priority Queues) & Step 10 (Graph Fundamentals)
+- [ ] **Weeks 13–14:** Step 10 (Advanced Graph Shortest Paths/DSU) & Step 11 (Dynamic Programming)
+- [ ] **Weeks 15–16:** Step 11 (Advanced DP Patterns) & Step 12 (Advanced Structures & Revision)

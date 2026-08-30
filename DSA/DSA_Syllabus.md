@@ -1,32 +1,73 @@
-# 🎓 Master C++ & Data Structures & Algorithms (DSA) Syllabus
+# 🎛️ Master C++ & DSA Learning Dashboard
 
-> **A Complete Roadmap from Language Fundamentals to Advanced Algorithmic Mastery**
+> **A Production-Grade Roadmap & Interactive Milestone Tracker from Language Fundamentals to Advanced Algorithmic Mastery**
 
 ---
 
-## 📌 Syllabus Overview
+## 📊 Dashboard Overview & Metrics
 
-This syllabus is designed as a definitive, production-grade guide to mastering **Data Structures & Algorithms (DSA)** along with **C++ (Basic, Intermediate, Advanced)**.
+| Metric | Target / Detail | Status |
+| :--- | :--- | :--- |
+| **Total Modules** | 12 Core Modules (1 C++ Revision + 11 DSA Domains) | 🟢 Active |
+| **Theoretical Subtopics** | 85+ Concepts (Memory, Complexity, Patterns, Algorithms) | ⚪ Planned |
+| **Must-Do Famous Problems** | 105 Curated Interview Problems (LeetCode / Striver A2Z) | ⚪ 0 / 105 Completed |
+| **Estimated Duration** | 16 Weeks (Dedicated Systematic Study) | ⏱️ In Progress |
+| **Offline Version** | PDF Copy Available ([DSA_Syllabus.pdf](file:///s:/Learning-Journey/DSA/DSA_Syllabus.pdf)) | 📄 Compiled |
 
-It is structured into **12 core modules**:
-- **Module 0:** C++ Quick Revision & Mastery (Basic, Intermediate, Advanced)
-- **Module 1:** Arrays & Strings
-- **Module 2:** Linked Lists
-- **Module 3:** Stacks & Queues
-- **Module 4:** Recursion & Backtracking
-- **Module 5:** Sorting & Binary Search
-- **Module 6:** Trees & Binary Search Trees (BST)
-- **Module 7:** Heaps & Priority Queues
-- **Module 8:** Hashing & Bit Manipulation
-- **Module 9:** Graphs
-- **Module 10:** Dynamic Programming (DP)
-- **Module 11:** Advanced Data Structures & String Algorithms
+---
+
+## 🚩 Milestone & Checkpoint Tracker
+
+Use this checklist as your high-level progress dashboard. Check off each milestone as you master the underlying theory and solve the associated must-do problems.
+
+### 🟢 Phase 1: C++ Language & Memory Mastery (Weeks 1–2)
+- [ ] **CP-01:** Basic C++ syntax, fast I/O (`cin.tie`), primitive data types, & range overflow limits.
+- [ ] **CP-02:** Pass-by-value vs pass-by-reference (`&`), pointer arithmetic, & memory addresses (`*`, `&`).
+- [ ] **CP-03:** Sequence STL containers (`vector`, `deque`, `list`) & capacity management (`reserve`).
+- [ ] **CP-04:** Associative STL containers (`set`, `map`, `unordered_set`, `unordered_map`) & hash tables.
+- [ ] **CP-05:** Container adaptors (`stack`, `queue`, `priority_queue` Min/Max heaps) & essential STL algorithms.
+- [ ] **CP-06:** Advanced C++: Smart pointers (`unique_ptr`, `shared_ptr`), move semantics (`&&`), & lambda comparators.
+
+### 🟡 Phase 2: Core Linear Data Structures & Search Space (Weeks 3–6)
+- [ ] **CP-07:** Array pattern mastery: Two Pointers, Sliding Window (Fixed & Variable), Prefix Sum, & Kadane's algorithm.
+- [ ] **CP-08:** Linked List pointer manipulation: In-place reversal, fast & slow pointers, dummy nodes, & LRU cache.
+- [ ] **CP-09:** Monotonic Stack & Queue patterns (Next Greater Element, Sliding Window Maximum, Largest Histogram).
+- [ ] **CP-10:** Binary Search fundamentals: Lower/Upper bounds, Rotated Array search, & Binary Search on Answer Space.
+
+### 🟠 Phase 3: Non-Linear Structures, Recursion & Trees (Weeks 7–10)
+- [ ] **CP-11:** Recursive state-space tree search, inclusion/exclusion pattern, & backtracking with pruning.
+- [ ] **CP-12:** Binary Tree traversals (DFS Pre/In/Post, BFS Level Order) & Lowest Common Ancestor (LCA).
+- [ ] **CP-13:** Binary Search Tree invariants, BST operations (Insert, Search, Delete), & Inorder traversal property.
+- [ ] **CP-14:** Binary Heaps ($O(N)$ Build-Heap), Top-K elements pattern, K-Way Merging, & Two-Heaps Median tracking.
+
+### 🔴 Phase 4: Graphs, Dynamic Programming & Advanced DSA (Weeks 11–16)
+- [ ] **CP-15:** Bit manipulation formulas (XOR tricks, `x & (x-1)`, power of 2) & Bitmasking state compression.
+- [ ] **CP-16:** Graph traversals (BFS/DFS), Topological Sort (Kahn's algorithm), & Disjoint Set Union (DSU).
+- [ ] **CP-17:** Graph shortest paths (Dijkstra, Bellman-Ford, Floyd-Warshall) & Minimum Spanning Trees (Kruskal/Prim).
+- [ ] **CP-18:** Dynamic Programming foundations: 1D DP, Grid DP, 0/1 & Unbounded Knapsack patterns.
+- [ ] **CP-19:** Advanced DP: Longest Common Subsequence (LCS), LIS ($O(N \log N)$ BS optimization), & Matrix Chain DP.
+- [ ] **CP-20:** Advanced structures: Trie (Prefix Tree), Segment Tree range queries, Fenwick Tree (BIT), & KMP string match.
+
+---
+
+## 📌 Module Navigation Index
+
+1. ⚡ [Module 0: C++ Quick Revision & Mastery](#-module-0-c-quick-revision--mastery)
+2. 🧮 [Module 1: Arrays & Strings](#-module-1-arrays--strings)
+3. 🔗 [Module 2: Linked Lists](#-module-2-linked-lists)
+4. 🧱 [Module 3: Stacks & Queues](#-module-3-stacks--queues)
+5. 🔄 [Module 4: Recursion & Backtracking](#-module-4-recursion--backtracking)
+6. 🎯 [Module 5: Sorting & Binary Search](#-module-5-sorting--binary-search)
+7. 🌲 [Module 6: Trees & Binary Search Trees (BST)](#-module-6-trees--binary-search-trees-bst)
+8. ⛰️ [Module 7: Heaps & Priority Queues](#-module-7-heaps--priority-queues)
+9. 🔑 [Module 8: Hashing & Bit Manipulation](#-module-8-hashing--bit-manipulation)
+10. 🌐 [Module 9: Graphs](#-module-9-graphs)
+11. 💎 [Module 10: Dynamic Programming (DP)](#-module-10-dynamic-programming-dp)
+12. ⚡ [Module 11: Advanced Data Structures & String Algorithms](#-module-11-advanced-data-structures--string-algorithms)
 
 ---
 
 ## ⚡ Module 0: C++ Quick Revision & Mastery
-
-Before diving into algorithmic problems, solidifying language constructs, memory models, and STL containers in C++ is essential.
 
 ### 0.1 Basic C++
 * **Syntax & I/O:**
@@ -36,15 +77,11 @@ Before diving into algorithmic problems, solidifying language constructs, memory
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     ```
-* **Data Types, Ranges & Precision:**
-  * Primitive types (`int`, `long long`, `float`, `double`, `char`, `bool`).
-  * Overflow/underflow awareness ($2^{31}-1$ vs $2^{63}-1$).
+* **Data Types, Ranges & Precision:** Primitive types (`int`, `long long`, `float`, `double`, `char`, `bool`), overflow/underflow boundaries ($2^{31}-1$ vs $2^{63}-1$).
 * **Control Flow:** Conditionals (`if`, `else if`, `switch`), Loops (`for`, `while`, `do-while`, range-based `for`).
-* **Arrays & Strings:** C-style fixed arrays vs `std::string`, string manipulation (`length()`, `substr()`, `find()`, `append()`).
-* **Functions & Parameter Passing:**
-  * Pass-by-Value vs Pass-by-Reference (`&`).
-  * Pass-by-Const-Reference (`const std::string& str`) to eliminate copy overhead.
-* **Pointers & Memory Addresses:** Address-of operator (`&`), Dereference operator (`*`), Pointer arithmetic, Null pointers (`nullptr`).
+* **Arrays & Strings:** Fixed arrays vs `std::string` manipulation (`length()`, `substr()`, `find()`, `append()`).
+* **Functions & Parameter Passing:** Pass-by-Value vs Pass-by-Reference (`&`), Pass-by-Const-Reference (`const std::string& str`).
+* **Pointers & Memory Addresses:** Address-of (`&`), Dereference (`*`), Pointer arithmetic, Null pointers (`nullptr`).
 
 ### 0.2 Intermediate C++ & Standard Template Library (STL)
 * **Sequence Containers:**
@@ -52,39 +89,25 @@ Before diving into algorithmic problems, solidifying language constructs, memory
   * `std::deque`: Double-ended queue, $O(1)$ push/pop at both ends.
   * `std::list`: Doubly linked list, $O(1)$ insertions/deletions anywhere given an iterator.
 * **Associative Containers:**
-  * `std::set` / `std::map`: Self-balancing Red-Black Tree implementation, sorted keys, $O(\log N)$ search/insert/delete.
-  * `std::unordered_set` / `std::unordered_map`: Hash table implementation, average $O(1)$ search/insert/delete, worst-case $O(N)$ due to collisions.
-  * `std::pair` & `std::tuple`: Binding multiple data types.
+  * `std::set` / `std::map`: Self-balancing Red-Black Tree, sorted keys, $O(\log N)$ operations.
+  * `std::unordered_set` / `std::unordered_map`: Hash table, average $O(1)$ operations, worst-case $O(N)$.
+  * `std::pair` & `std::tuple`: Multi-value binding.
 * **Container Adaptors:**
   * `std::stack`: LIFO operations (`push`, `pop`, `top`).
   * `std::queue`: FIFO operations (`push`, `pop`, `front`).
-  * `std::priority_queue`: Max-heap by default (`top`, `push`, `pop`), Min-heap via `std::priority_queue<int, vector<int>, greater<int>>`.
-* **Essential STL Algorithms:**
-  * `std::sort(begin, end)`: IntroSort ($O(N \log N)$).
-  * `std::binary_search`, `std::lower_bound`, `std::upper_bound`.
-  * `std::next_permutation`, `std::prev_permutation`.
-  * `std::min_element`, `std::max_element`, `std::accumulate`.
-* **Dynamic Memory & Object-Oriented Programming (OOP):**
-  * Dynamic allocation (`new`, `delete`, `new[]`, `delete[]`).
-  * Classes vs Structs (default access modifiers: `private` vs `public`).
-  * Constructors (Default, Parameterized, Copy), Destructors.
-  * Virtual functions, Abstract classes, and Polymorphism.
+  * `std::priority_queue`: Max-heap by default (`top`, `push`, `pop`), Min-heap via `greater<int>`.
+* **Essential STL Algorithms:** `std::sort`, `std::binary_search`, `std::lower_bound`, `std::upper_bound`, `std::next_permutation`, `std::accumulate`.
+* **Dynamic Memory & OOP:** Dynamic allocation (`new`/`delete`), Classes vs Structs, Constructors, Destructors, Polymorphism.
 
 ### 0.3 Advanced C++
-* **Smart Pointers (RAII):** `std::unique_ptr` (exclusive ownership), `std::shared_ptr` (reference-counted ownership), `std::weak_ptr` (preventing cyclic references).
+* **Smart Pointers (RAII):** `std::unique_ptr` (exclusive ownership), `std::shared_ptr` (reference-counted), `std::weak_ptr` (cyclic protection).
 * **Move Semantics & Rvalue References:** Rvalue reference (`T&&`), `std::move`, move constructors, avoiding deep copies.
 * **Templates & Generic Programming:** Function templates, Class templates, Template specialization.
 * **Lambda Expressions & Custom Comparators:**
-  * Lambda syntax: `[capture](params) -> ret { body }`.
-  * Custom comparators for sorting:
-    ```cpp
-    sort(vec.begin(), vec.end(), [](const Point& a, const Point& b) {
-        return a.x < b.x;
-    });
-    ```
-  * Custom comparators for `std::priority_queue`.
-* **Custom Hash Functions:** Writing custom hashes for `std::unordered_map<pair<int,int>, int>` using XOR / `boost::hash_combine`.
-* **Memory Alignment & Cache Locality:** Spatial & Temporal locality in array traversals vs linked data structures.
+  * Sorting comparators: `sort(vec.begin(), vec.end(), [](const Point& a, const Point& b) { return a.x < b.x; });`
+  * Custom priority queue comparators.
+* **Custom Hash Functions:** Custom hashes for `std::unordered_map<pair<int,int>, int>` using XOR / `boost::hash_combine`.
+* **Memory Alignment & Cache Locality:** Spatial & Temporal locality in array traversals vs node-based data structures.
 
 ---
 
@@ -93,11 +116,11 @@ Before diving into algorithmic problems, solidifying language constructs, memory
 ### 1.1 Core Concepts & Theory
 * Memory layout of 1D and 2D arrays (Row-Major vs Column-Major ordering).
 * Time and Space complexity of Array operations (Access $O(1)$, Search $O(N)$, Insertion/Deletion $O(N)$).
-* String representation, immutability concepts in different languages, and character encodings (ASCII / UTF-8).
+* String immutability vs mutability concepts, ASCII & UTF-8 character encodings.
 
 ### 1.2 Theoretical Subtopics & Algorithmic Patterns
-* **Two Pointers Technique:** Opposite direction (e.g., palindrome check, 2-sum) and Same direction (e.g., fast/slow pointers, removing duplicates).
-* **Sliding Window:** Fixed-size window (e.g., max sum of subarray of size K) and Variable-size window (e.g., longest substring with K distinct characters).
+* **Two Pointers Technique:** Opposite direction (palindrome check, 2-sum) and Same direction (fast/slow, duplicate removal).
+* **Sliding Window:** Fixed-size window (max sum of subarray K) and Variable-size window (longest substring with K distinct chars).
 * **Prefix Sum & Difference Array:** $O(1)$ range sum queries, $O(1)$ range updates using difference array.
 * **Kadane's Algorithm:** Maximum subarray sum intuition, local vs global optimal state transition.
 * **Dutch National Flag Algorithm:** 3-way partitioning algorithm ($O(N)$ time, $O(1)$ space).
@@ -129,7 +152,7 @@ Before diving into algorithmic problems, solidifying language constructs, memory
 * **Fast & Slow Pointers (Floyd's Cycle Detection):** Mathematical proof of cycle detection ($2k - k = n \cdot C$), finding cycle entry node.
 * **Linked List Reversal:** Iterative 3-pointer method (`prev`, `curr`, `next`) and Recursive reversal.
 * **Dummy Node Pattern:** Eliminating edge cases for head updates.
-* **Merge Sort on Linked Lists:** Finding middle using slow/fast pointers, dividing list, merging sorted lists ($O(N \log N)$ time, $O(1)$ auxiliary space).
+* **Merge Sort on Linked Lists:** Finding middle using slow/fast pointers, dividing list, merging sorted lists ($O(N \log N)$ time, $O(1)$ space).
 * **Cache Eviction Architectures:** Combined Hash Map + Doubly Linked List for LRU Cache ($O(1)$ get and put).
 
 ### 2.3 Must-Do Famous Problems
@@ -198,7 +221,7 @@ Before diving into algorithmic problems, solidifying language constructs, memory
 
 ---
 
-## 🎯 Module 5: Sorting & Searching (Binary Search)
+## 🎯 Module 5: Sorting & Binary Search
 
 ### 5.1 Core Concepts & Theory
 * **Sorting Categories:** Comparison-based vs Non-comparison-based, In-place vs Out-of-place, Stable vs Unstable sorts.
@@ -289,7 +312,7 @@ Before diving into algorithmic problems, solidifying language constructs, memory
 ## 🔑 Module 8: Hashing & Bit Manipulation
 
 ### 8.1 Core Concepts & Theory
-* **Hashing:** Hash Functions, Load Factor ($\alpha = N/M$), Collision Resolution (Separate Chaining using LL/Vectors vs Open Addressing: Linear/Quadratic Probing, Double Hashing).
+* **Hashing:** Hash Functions, Load Factor ($\alpha = N/M$), Collision Resolution (Separate Chaining vs Open Addressing: Linear/Quadratic Probing, Double Hashing).
 * **Bit Manipulation:** Binary representations, Two's Complement, Bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`).
 
 ### 8.2 Theoretical Subtopics & Algorithmic Patterns
@@ -332,8 +355,7 @@ Before diving into algorithmic problems, solidifying language constructs, memory
 * **Topological Sort (DAG):**
   * Kahn's Algorithm (BFS with In-degree array).
   * DFS with Stack.
-* **Disjoint Set Union (DSU / Union-Find):**
-  * Path Compression & Union by Rank/Size ($O(\alpha(N))$ amortized time per operation).
+* **Disjoint Set Union (DSU / Union-Find):** Path Compression & Union by Rank/Size ($O(\alpha(N))$ amortized time per operation).
 * **Shortest Path Algorithms:**
   * **Dijkstra's Algorithm:** Non-negative weights using Priority Queue ($O((V + E) \log V)$).
   * **Bellman-Ford Algorithm:** Single-source shortest paths with negative weights & negative cycle detection ($O(V \cdot E)$).
@@ -412,16 +434,3 @@ Before diving into algorithmic problems, solidifying language constructs, memory
 4. **Range Sum Query - Mutable** *(Segment Tree / Fenwick Tree)* — LeetCode #307
 5. **Find the Index of the First Occurrence in a String (KMP)** *(KMP Algorithm / LPS)* — LeetCode #28
 6. **Shortest Palindrome** *(KMP Algorithm / String)* — LeetCode #214
-
----
-
-## 📅 Suggested Learning Schedule & Progress Checklist
-
-- [ ] **Weeks 1–2:** C++ Basics, STL Mastery, & Pointers/Memory Management (Module 0)
-- [ ] **Weeks 3–4:** Arrays, Two Pointers, & Sliding Window (Module 1)
-- [ ] **Weeks 5–6:** Linked Lists & Monotonic Stacks/Queues (Modules 2 & 3)
-- [ ] **Weeks 7–8:** Recursion, Backtracking, & Binary Search (Modules 4 & 5)
-- [ ] **Weeks 9–10:** Trees, BSTs, & Priority Queues (Modules 6 & 7)
-- [ ] **Weeks 11–12:** Hashing, Bit Manipulation, & Graph Fundamentals (Modules 8 & 9)
-- [ ] **Weeks 13–14:** Advanced Graphs & Dynamic Programming (Modules 9 & 10)
-- [ ] **Weeks 15–16:** Advanced Data Structures & Interview Revision (Module 11)
